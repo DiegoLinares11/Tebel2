@@ -4,7 +4,6 @@
     <head>
 
         <meta charset="utf-8">
-<<<<<<< HEAD
         <title>Tebel</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Tebel - ecommerce website" name="description">
@@ -28,118 +27,14 @@
     </head>
 
     <body>
-=======
-        <title>Index | Toner eCommerce + Admin HTML Template</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="Toner - eCommerce + Admin HTML Template Build with HTML, React, Laravel, Nodejs" name="description">
-        <meta content="Themesbrand" name="author">
-        <!-- App favicon -->
-        <link rel="shortcut icon" href="/images/favicon.ico">
-
-        <!--Swiper slider css-->
-        <link href="/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
-
-        <!-- Bootstrap Css -->
-        <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <!-- Icons Css -->
-        <link href="/css/icons.min.css" rel="stylesheet" type="text/css">
-        <!-- App Css-->
-        <link href="/css/app.min.css" rel="stylesheet" type="text/css">
-        <!-- custom Css-->
-        <link href="/css/custom.min.css" rel="stylesheet" type="text/css">
-
-    </head>
-
-    <body>
-
-        <div class="top-tagbar">
-    <div class="w-100">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-md-4 col-9">
-                <div class="fs-14 fw-medium">
-                    <i class="bi bi-geo-alt align-middle me-2"></i> Phoenix, USA
-                </div>
-            </div>
-            <div class="col-md-4 col-6 d-none d-xxl-block">
-                <div class="d-flex align-items-center justify-content-center gap-3 fs-14 fw-medium">
-                    <div>
-                        <i class="bi bi-envelope align-middle me-2"></i> support@themesbrand.com
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-3">
-                <div class="d-flex align-items-center justify-content-end gap-3 fs-14">
-                    <div class="text-reset fw-normal d-none d-lg-block">
-                        <i class="bi bi-telephone-outbound align-middle me-2"></i> +(235) 01234 5678
-                    </div>
-                    <hr class="vr d-none d-lg-block">
-                    <div class="dropdown topbar-head-dropdown topbar-tag-dropdown justify-content-end">
-                        <button type="button" class="btn btn-icon btn-topbar text-reset rounded-circle fs-14 fw-medium" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img id="header-lang-img" src="/images/flags/us.svg" alt="Header Language" height="16" class="rounded-circle me-2"> <span id="lang-name">English</span>
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-end">
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language py-2" data-lang="en" title="English">
-                                <img src="/images/flags/us.svg" alt="user-image" class="me-2 rounded-circle" height="18">
-                                <span class="align-middle">English</span>
-                            </a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp" title="Spanish">
-                                <img src="/images/flags/spain.svg" alt="user-image" class="me-2 rounded-circle" height="18">
-                                <span class="align-middle">Española</span>
-                            </a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr" title="German">
-                                <img src="/images/flags/germany.svg" alt="user-image" class="me-2 rounded-circle" height="18"> <span class="align-middle">Deutsche</span>
-                            </a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it" title="Italian">
-                                <img src="/images/flags/italy.svg" alt="user-image" class="me-2 rounded-circle" height="18">
-                                <span class="align-middle">Italiana</span>
-                            </a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru" title="Russian">
-                                <img src="/images/flags/russia.svg" alt="user-image" class="me-2 rounded-circle" height="18">
-                                <span class="align-middle">русский</span>
-                            </a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ch" title="Chinese">
-                                <img src="/images/flags/china.svg" alt="user-image" class="me-2 rounded-circle" height="18">
-                                <span class="align-middle">中国人</span>
-                            </a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="fr" title="French">
-                                <img src="/images/flags/french.svg" alt="user-image" class="me-2 rounded-circle" height="18">
-                                <span class="align-middle">français</span>
-                            </a>
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sa" title="Arabic">
-                                <img src="/images/flags/sa.svg" alt="user-image" class="me-2 rounded-circle" height="18">
-                                <span class="align-middle">عربى</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
         <nav class="navbar navbar-expand-lg ecommerce-navbar" id="navbar">
             <div class="container">
                 <a class="navbar-brand d-none d-lg-block" href="index.html">
                     <div class="logo-dark">
-<<<<<<< HEAD
                         <img src="front/images/prodin.png" alt="" height="25">
                     </div>
                     <div class="logo-light">
                         <img src="front/images/logo-light.png" alt="" height="25">
-=======
-                        <img src="/images/logo-dark.png" alt="" height="25">
-                    </div>
-                    <div class="logo-light">
-                        <img src="/images/logo-light.png" alt="" height="25">
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
                     </div>
                 </a>
                 <button class="btn btn-soft-primary btn-icon d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -149,249 +44,12 @@
                     <ul class="navbar-nav mx-lg-auto mb-2 mb-lg-0" id="navigation-menu">
                         <li class="nav-item d-block d-lg-none">
                             <a class="d-block p-3 h-auto text-center" href="index.html">
-<<<<<<< HEAD
                                 <img src="front/images/logo-dark.png" alt="" height="25" class="card-logo-dark mx-auto">
                                 <img src="front/images/logo-light.png" alt="" height="25" class="card-logo-light mx-auto">
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact-us.html" data-key="t-contact">Home</a>
-=======
-                                <img src="/images/logo-dark.png" alt="" height="25" class="card-logo-dark mx-auto">
-                                <img src="/images/logo-light.png" alt="" height="25" class="card-logo-light mx-auto">
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown dropdown-hover">
-                            <a class="nav-link dropdown-toggle" data-key="t-demos" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Demos
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-md dropdown-menu-center dropdown-menu-list submenu">
-                                <li class="nav-item">
-                                    <a href="index.html" class="nav-link" data-key="t-main-layout">Main Layout</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="watch-main-layout.html" class="nav-link" data-key="t-unique-watches">Unique Watches</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="modern-fashion.html" class="nav-link" data-key="t-modern-fashion">Modern Fashion</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="trend-fashion.html" class="nav-link" data-key="t-trend-fashion">Trend Fashion</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown dropdown-hover dropdown-mega-full">
-                            <a class="nav-link dropdown-toggle" data-key="t-catalog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Catalog
-                            </a>
-                            <div class="dropdown-menu p-0">
-                                <div class="row g-0 g-lg-4">
-                                    <div class="col-lg-2 d-none d-lg-block">
-                                        <div class="card rounded-start rounded-0 border-0 h-100 mb-0 overflow-hidden" style="background-image: url('/images/ecommerce/img-1.jpg');background-size: cover;">
-                                            <div class="bg-overlay bg-light bg-opacity-25"></div>
-                                            <div class="card-body d-flex align-items-center justify-content-center">
-                                                <div class="text-center">
-                                                    <a href="product-grid-sidebar-banner.html" class="btn btn-secondary btn-hover"><i class="ph-storefront align-middle me-1"></i> <span data-key="t-shop-now">Shop Now</span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-2">
-                                        <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
-                                            <li>
-                                                <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-men">Men</p>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-grid-sidebar-banner.html" class="nav-link" data-key="t-clothing">Clothing</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-grid-right.html" class="nav-link" data-key="t-watches">Watches</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-list-left.html" class="nav-link" data-key="t-bags-Luggage">Bags & Luggage</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-grid-right.html" class="nav-link" data-key="t-footwear">Footwear</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-list.html" class="nav-link" data-key="t-innerwear">Innerwear</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-list-right.html" class="nav-link" data-key="t-other-accessories">Other Accessories</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-2">
-                                        <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
-                                            <li>
-                                                <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-women">Women</p>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-list-defualt.html" class="nav-link" data-key="t-western-wear">Western Wear</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-list-left.html" class="nav-link" data-key="t-handbags-clutches">Handbags & Clutches</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-grid-right.html" class="nav-link" data-key="t-lingerie-nightwear">Lingerie & Nightwear</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-grid-sidebar-banner.html" class="nav-link" data-key="t-footwear">Footwear</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-grid-defualt.html" class="nav-link" data-key="t-fashion-silver-jewellery">Fashion & Silver Jewellery</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-2">
-                                        <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
-                                            <li>
-                                                <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-accessories-others">Accessories & Others</p>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-grid-right.html" class="nav-link" data-key="t-home-kitchen-pets">Home, Kitchen, Pets</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-list-left.html" class="nav-link" data-key="t-beauty-health-grocery">Beauty, Health, Grocery</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-grid-sidebar-banner.html" class="nav-link" data-key="t-sports-fitness-bags-luggage">Sports, Fitness, Bags, Luggage</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-list.html" class="nav-link" data-key="t-car-motorbike-industrial">Car, Motorbike, Industrial</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="product-list-right.html" class="nav-link" data-key="t-books">Books</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-2">
-                                        <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
-                                            <li>
-                                                <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-others">Others</p>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="auth-signup-basic.html" class="nav-link" data-key="t-sign-up">Sign Up</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="auth-signin-basic.html" class="nav-link" data-key="t-sign-in">Sign In</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="auth-pass-reset-basic.html" class="nav-link" data-key="t-passowrd-reset">Reset Password</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="auth-404.html" class="nav-link" data-key="t-error-404">Error 404</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-2 d-none d-lg-block">
-                                        <div class="p-3">
-                                            <p class="mb-3 text-uppercase fs-11 fw-medium text-muted" data-key="t-top-brands">Top Brands</p>
-                                            <div class="row g-2">
-                                                <div class="col-lg-4">
-                                                    <a href="#!" class="d-block p-2 border border-dashed text-center rounded-3">
-                                                        <img src="/images/brands/img-8.png" alt="" class="avatar-sm">
-                                                    </a>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <a href="#!" class="d-block p-2 border border-dashed text-center rounded-3">
-                                                        <img src="/images/brands/img-2.png" alt="" class="avatar-sm">
-                                                    </a>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <a href="#!" class="d-block p-2 border border-dashed text-center rounded-3">
-                                                        <img src="/images/brands/img-3.png" alt="" class="avatar-sm">
-                                                    </a>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <a href="#!" class="d-block p-2 border border-dashed text-center rounded-3">
-                                                        <img src="/images/brands/img-4.png" alt="" class="avatar-sm">
-                                                    </a>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <a href="#!" class="d-block p-2 border border-dashed text-center rounded-3">
-                                                        <img src="/images/brands/img-5.png" alt="" class="avatar-sm">
-                                                    </a>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <a href="#!" class="d-block p-2 border border-dashed text-center rounded-3">
-                                                        <img src="/images/brands/img-6.png" alt="" class="avatar-sm">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown dropdown-hover">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-key="t-shop">
-                                Shop
-                            </a>
-                            <div class="dropdown-menu dropdown-mega-menu-xl dropdown-menu-center p-0">
-                                <div class="row g-0 g-lg-4">
-                                    <div class="col-lg-5 d-none d-lg-block">
-                                        <div class="card rounded-start rounded-0 border-0 h-100 mb-0 overflow-hidden" style="background-image: url('/images/ecommerce/img-2.jpg'); background-size: cover;">
-                                            <div class="bg-overlay bg-primary" style="opacity: 0.90;"></div>
-                                            <div class="card-body d-flex align-items-center justify-content-center position-relative">
-                                                <div class="text-center">
-                                                    <h6 class="card-title text-white">Welcome to Toner</h6>
-                                                    <p class="text-white-75">See all the products at once.</p>
-                                                    <a href="#!" class="btn btn-light btn-sm btn-hover">Shop Now <i class="ph-arrow-right align-middle"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-7">
-                                        <div class="row g-0 g-lg-4">
-                                            <div class="col-lg-6">
-                                                <div class="py-3">
-                                                    <ul class="dropdown-menu-list list-unstyled mb-0">
-                                                        <li>
-                                                            <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-checkout-pages">Checkout Pages</p>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a href="address.html" class="nav-link" data-key="t-address"> Address</a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a href="track-order.html" class="nav-link" data-key="t-track-order">Track Order</a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a href="payment.html" class="nav-link" data-key="t-payment">Payment</a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a href="review.html" class="nav-link" data-key="t-review">Review</a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a href="confirmation.html" class="nav-link" data-key="t-confirmation">Confirmation</a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a href="order-history.html" class="nav-link" data-key="t-my-orders-order-history">My Orders / Order History</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
-                                                    <li>
-                                                        <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-support">Support</p>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a href="shop-cart.html" class="nav-link" data-key="t-shopping-cart">Shopping Cart</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a href="checkout.html" class="nav-link" data-key="t-checkout">Checkout</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a href="wishlist.html" class="nav-link" data-key="t-wishlist">Wishlist</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
                         </li>
                         <li class="nav-item dropdown dropdown-hover">
                             <a class="nav-link dropdown-toggle" data-key="t-pages" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -528,11 +186,7 @@
                     </div>
                     <div class="dropdown header-item dropdown-hover-end">
                         <button type="button" class="btn" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-<<<<<<< HEAD
                             <img class="rounded-circle header-profile-user" src="front/images/users/avatar-1.jpg" alt="Header Avatar">
-=======
-                            <img class="rounded-circle header-profile-user" src="/images/users/avatar-1.jpg" alt="Header Avatar">
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
                         </button>
                         <!-- <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="ph-user-circle fs-22"></i>
@@ -568,11 +222,7 @@
                                 <div class="flex-shrink-0">
                                     <div class="avatar-md" style="height: 100%;">
                                         <div class="avatar-title bg-warning-subtle rounded-3">
-<<<<<<< HEAD
                                             <img src="front/images/products/img-4.png" alt="" class="avatar-sm">
-=======
-                                            <img src="/images/products/img-4.png" alt="" class="avatar-sm">
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
                                         </div>
                                     </div>
                                 </div>
@@ -602,11 +252,7 @@
                                 <div class="flex-shrink-0">
                                     <div class="avatar-md" style="height: 100%;">
                                         <div class="avatar-title bg-info-subtle rounded-3">
-<<<<<<< HEAD
                                             <img src="front/images/products/img-1.png" alt="" class="avatar-sm">
-=======
-                                            <img src="/images/products/img-1.png" alt="" class="avatar-sm">
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
                                         </div>
                                     </div>
                                 </div>
@@ -636,11 +282,7 @@
                                 <div class="flex-shrink-0">
                                     <div class="avatar-md" style="height: 100%;">
                                         <div class="avatar-title bg-danger-subtle rounded-3">
-<<<<<<< HEAD
                                             <img src="front/images/products/img-6.png" alt="" class="avatar-sm">
-=======
-                                            <img src="/images/products/img-6.png" alt="" class="avatar-sm">
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
                                         </div>
                                     </div>
                                 </div>
@@ -670,11 +312,7 @@
                                 <div class="flex-shrink-0">
                                     <div class="avatar-md" style="height: 100%;">
                                         <div class="avatar-title bg-primary-subtle rounded-3">
-<<<<<<< HEAD
                                             <img src="front/images/products/img-8.png" alt="" class="avatar-sm">
-=======
-                                            <img src="/images/products/img-8.png" alt="" class="avatar-sm">
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
                                         </div>
                                     </div>
                                 </div>
@@ -790,11 +428,7 @@
                                     <h5 class="text-overflow text-muted fs-13 mb-2 mt-3 text-uppercase notification-title">People</h5>
                                     <a href="javascript:void(0);" class="list-group-item dropdown-item notify-item">
                                         <div class="d-flex align-items-center">
-<<<<<<< HEAD
                                             <img src="front/images/users/avatar-1.jpg" alt="" class="avatar-xs rounded-circle flex-shrink-0 me-2">
-=======
-                                            <img src="/images/users/avatar-1.jpg" alt="" class="avatar-xs rounded-circle flex-shrink-0 me-2">
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
                                             <div>
                                                 <h6 class="mb-0">Ayaan Bowen</h6>
                                                 <span class="fs-12 text-muted">React Developer</span>
@@ -803,11 +437,7 @@
                                     </a>
                                     <a href="javascript:void(0);" class="list-group-item dropdown-item notify-item">
                                         <div class="d-flex align-items-center">
-<<<<<<< HEAD
                                             <img src="front/images/users/avatar-7.jpg" alt="" class="avatar-xs rounded-circle flex-shrink-0 me-2">
-=======
-                                            <img src="/images/users/avatar-7.jpg" alt="" class="avatar-xs rounded-circle flex-shrink-0 me-2">
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
                                             <div>
                                                 <h6 class="mb-0">Alexander Kristi</h6>
                                                 <span class="fs-12 text-muted">React Developer</span>
@@ -816,11 +446,7 @@
                                     </a>
                                     <a href="javascript:void(0);" class="list-group-item dropdown-item notify-item">
                                         <div class="d-flex align-items-center">
-<<<<<<< HEAD
                                             <img src="front/images/users/avatar-5.jpg" alt="" class="avatar-xs rounded-circle flex-shrink-0 me-2">
-=======
-                                            <img src="/images/users/avatar-5.jpg" alt="" class="avatar-xs rounded-circle flex-shrink-0 me-2">
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
                                             <div>
                                                 <h6 class="mb-0">Alan Carla</h6>
                                                 <span class="fs-12 text-muted">React Developer</span>
@@ -880,11 +506,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="p-4 pb-0">
-<<<<<<< HEAD
                                     <img src="front/images/subscribe.png" alt="" class="img-fluid">
-=======
-                                    <img src="/images/subscribe.png" alt="" class="img-fluid">
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
                                 </div>
                             </div>
                         </div>
@@ -894,146 +516,23 @@
         </div>
         <!-- end modal -->
 
-<<<<<<< HEAD
-=======
-        <a href="../backend/index.html" class="btn btn-warning position-fixed bottom-0 start-0 m-5 z-3 btn-hover d-none d-lg-block"><i class="bi bi-database align-middle me-1"></i> Backend</a>
-
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
         <!--start back-to-top-->
         <button onclick="topFunction()" class="btn btn-info btn-icon" style="bottom: 50px;" id="back-to-top">
             <i class="ri-arrow-up-line"></i>
         </button>
         <!--end back-to-top-->
 
-<<<<<<< HEAD
 		<div class="main-container">
             @yield('content')
         </div>
 
-=======
-        <a class="btn btn-danger shadow-lg chat-button rounded-bottom-0 d-none d-lg-block" data-bs-toggle="collapse" href="#chatBot" aria-expanded="false" aria-controls="chatBot">Online Chat</a>
-        <div class="collapse chat-box" id="chatBot">
-            <div class="card shadow-lg border-0 rounded-bottom-0 mb-0">
-                <div class="card-header bg-success d-flex align-items-center border-0">
-                    <h5 class="text-white fs-16 fw-medium flex-grow-1 mb-0">Hi, Raquel Murillo 👋</h5>
-                    <button type="button" class="btn-close btn-close-white flex-shrink-0" onclick="chatBot()" data-bs-dismiss="collapse" aria-label="Close"></button>
-                </div>
-                <div class="card-body p-0">
-                    <div id="users-chat-widget">
-                        <div class="chat-conversation p-3" id="chat-conversation" data-simplebar style="height: 280px;">
-                            <ul class="list-unstyled chat-conversation-list chat-sm" id="users-conversation">
-                                <li class="chat-list left">
-                                    <div class="conversation-list">
-                                        <div class="chat-avatar">
-                                            <img src="/images/logo-sm.png" alt="">
-                                        </div>
-                                        <div class="user-chat-content">
-                                            <div class="ctext-wrap">
-                                                <div class="ctext-wrap-content">
-                                                    <p class="mb-0 ctext-content">Welcome to Themesbrand. We are here to help you. You can also directly email us at Support@themesbrand.com to schedule a meeting with our Technology Consultant.</p>
-                                                </div>
-                                                <div class="dropdown align-self-start message-box-drop">
-                                                    <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        <i class="ri-more-2-fill"></i>
-                                                    </a>
-                                                    <div class="dropdown-menu">
-                                                        <a class="dropdown-item" href="#"><i class="ri-reply-line me-2 text-muted align-bottom"></i>Reply</a>
-                                                        <a class="dropdown-item" href="#"><i class="ri-file-copy-line me-2 text-muted align-bottom"></i>Copy</a>
-                                                        <a class="dropdown-item delete-item" href="#"><i class="ri-delete-bin-5-line me-2 text-muted align-bottom"></i>Delete</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="conversation-name"><small class="text-muted time">09:07 am</small> <span class="text-success check-message-icon"><i class="ri-check-double-line align-bottom"></i></span></div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- chat-list -->
-
-                                <li class="chat-list right">
-                                    <div class="conversation-list">
-                                        <div class="user-chat-content">
-                                            <div class="ctext-wrap">
-                                                <div class="ctext-wrap-content">
-                                                    <p class="mb-0 ctext-content">Good morning, How are you? What about our next meeting?</p>
-                                                </div>
-                                                <div class="dropdown align-self-start message-box-drop">
-                                                    <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        <i class="ri-more-2-fill"></i>
-                                                    </a>
-                                                    <div class="dropdown-menu">
-                                                        <a class="dropdown-item" href="#"><i class="ri-reply-line me-2 text-muted align-bottom"></i>Reply</a>
-                                                        <a class="dropdown-item" href="#"><i class="ri-file-copy-line me-2 text-muted align-bottom"></i>Copy</a>
-                                                        <a class="dropdown-item delete-item" href="#"><i class="ri-delete-bin-5-line me-2 text-muted align-bottom"></i>Delete</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="conversation-name"><small class="text-muted time">09:08 am</small> <span class="text-success check-message-icon"><i class="ri-check-double-line align-bottom"></i></span></div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- chat-list -->
-
-                                <li class="chat-list left">
-                                    <div class="conversation-list">
-                                        <div class="chat-avatar">
-                                            <img src="/images/logo-sm.png" alt="">
-                                        </div>
-                                        <div class="user-chat-content">
-                                            <div class="ctext-wrap">
-                                                <div class="ctext-wrap-content">
-                                                    <p class="mb-0 ctext-content">Yeah everything is fine. Our next meeting tomorrow at 10.00 AM</p>
-                                                </div>
-                                                <div class="dropdown align-self-start message-box-drop">
-                                                    <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        <i class="ri-more-2-fill"></i>
-                                                    </a>
-                                                    <div class="dropdown-menu">
-                                                        <a class="dropdown-item" href="#"><i class="ri-reply-line me-2 text-muted align-bottom"></i>Reply</a>
-                                                        <a class="dropdown-item" href="#"><i class="ri-file-copy-line me-2 text-muted align-bottom"></i>Copy</a>
-                                                        <a class="dropdown-item delete-item" href="#"><i class="ri-delete-bin-5-line me-2 text-muted align-bottom"></i>Delete</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="conversation-name"><small class="text-muted time">09:10 am</small> <span class="text-success check-message-icon"><i class="ri-check-double-line align-bottom"></i></span></div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- chat-list -->
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="border-top border-top-dashed">
-                        <div class="row g-2 mt-2 mx-3 mb-3">
-                            <div class="col">
-                                <div class="position-relative">
-                                    <input type="text" class="form-control border-light bg-light" placeholder="Enter Message...">
-                                </div>
-                            </div><!-- end col -->
-                            <div class="col-auto">
-                                <button type="submit" class="btn btn-info"><i class="mdi mdi-send"></i></button>
-                            </div><!-- end col -->
-                        </div><!-- end row -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <section class="section"></section>
-
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
         <section class="section footer-landing pb-0">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="footer-info">
-<<<<<<< HEAD
                             <img src="front/images/logo-light.png" alt="" height="28" class="logo-light">
                             <img src="front/images/logo-dark.png" alt="" height="28" class="logo-dark">
-=======
-                            <img src="/images/logo-light.png" alt="" height="28" class="logo-light">
-                            <img src="/images/logo-dark.png" alt="" height="28" class="logo-dark">
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
                             <p class="footer-desc mt-4 mb-2 me-3">Toner provides best fashion experience for both men and women at best pricing. We follow New fashion approach to give best premium feel.</p>
 
                             <div class="footer-social mt-4">
@@ -1118,7 +617,6 @@
                         <div class="text-sm-end d-none d-sm-block">
                             <ul class="list-inline mb-0">
                                 <li class="list-inline-item">
-<<<<<<< HEAD
                                     <a href="#!"><img src="front/images/ecommerce/payment/visa.png" alt="" height="30"></a>
                                 </li>
                                 <li class="list-inline-item">
@@ -1129,18 +627,6 @@
                                 </li>
                                 <li class="list-inline-item">
                                     <a href="#!"><img src="front/images/ecommerce/payment/paypal.png" alt="" height="30"></a>
-=======
-                                    <a href="#!"><img src="/images/ecommerce/payment/visa.png" alt="" height="30"></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#!"><img src="/images/ecommerce/payment/discover.png" alt="" height="30"></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#!"><img src="/images/ecommerce/payment/american-express.png" alt="" height="30"></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#!"><img src="/images/ecommerce/payment/paypal.png" alt="" height="30"></a>
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
                                 </li>
                             </ul>
                         </div>
@@ -1150,19 +636,11 @@
         </section>
 
         <!-- JAVASCRIPT -->
-<<<<<<< HEAD
         <script src="front/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="front/libs/simplebar/simplebar.min.js"></script>
         <script src="front/js/plugins.js"></script>
 
         <script src="front/js/frontend/menu.init.js"></script>
-=======
-        <script src="/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="/libs/simplebar/simplebar.min.js"></script>
-        <script src="/js/plugins.js"></script>
-
-        <script src="/js/frontend/menu.init.js"></script>
->>>>>>> d515c6d45e6dcb880a7c3e7f26ed59bea35a0de8
 
     </body>
 
