@@ -7,7 +7,7 @@ class ProductsController extends Controller
 {
     public function index()
     {
-        dd("BACKEND PRODUCTS");
+        return view('backend.index');
     }
     public function grid()
     {
