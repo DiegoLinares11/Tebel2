@@ -16,6 +16,6 @@ Route::get('/contact', [FrontendController::class, 'contact']);
 // BACKEND
 Route::prefix('backend')->group(function () {
     // Route::resource('clients', ClientsController::class);
-    Route::resource('products', ProductsController::class);
+    Route::get('product/grid', [ProductsController::class, 'grid']);
     Route::resource('signup', SignUpController::class);
 });

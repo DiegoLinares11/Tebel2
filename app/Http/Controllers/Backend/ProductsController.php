@@ -9,4 +9,8 @@ class ProductsController extends Controller
     {
         dd("BACKEND PRODUCTS");
     }
+    public function grid()
+    {
+        return view('backend.product-grid');
+    }
 }
