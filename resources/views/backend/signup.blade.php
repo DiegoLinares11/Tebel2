@@ -68,12 +68,12 @@
                                                 <img src="/images/prodin.png" alt="Logo empresa" class="img-fluid">
                                             </div>
                                             <div class="col-lg-8 col-9">
-                                                <h1 class="text-white text-capitalize lh-base fw-lighter">Let's get started with Toner Store</h1>
+                                                <h1 class="text-white text-capitalize lh-base fw-lighter">Registrate con nosotros</h1>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card-body">
-                                        <p class="text-muted fs-15">Get your free Toner account now</p>
+                                        <p class="text-muted fs-15">Consigue tu cuenta ahora</p>
                                         <div class="p-2">
                                             <form class="needs-validation" novalidate action="index.html">
                                         
