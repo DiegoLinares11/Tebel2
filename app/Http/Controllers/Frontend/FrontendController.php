@@ -10,15 +10,13 @@ class FrontendController extends Controller
         return view('frontend.index');
     }
 
-    public function about()
+    public function products()
     {
-        return view('frontend.index')
-            ->with('mensaje', "Sobre nosotros");
+        return view('frontend.products');
     }
 
     public function contact()
     {
-        return view('frontend.index')
-            ->with('mensaje', "Llamame!");
+        return view('frontend.contact');
     }
 }
