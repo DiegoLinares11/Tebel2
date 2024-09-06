@@ -13,7 +13,6 @@
                     <p class="fs-18">First text</p>
                     <h1 class="text-capitalize display-5 fw-medium lh-base mb-3">Example <span class="ff-secondary">Text</span> example</h1>
                     <p class="text-muted lead fw-normal mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
-                    <a href="product-grid-sidebar-banner.html" class="link-effect link-warning fs-17">Shop Now <i class="bi bi-arrow-right align-baseline ms-1"></i></a>
                 </div><!--end col-->
                 <div class="col-lg-6 ms-auto">
                     <div class="text-center main-home-img">

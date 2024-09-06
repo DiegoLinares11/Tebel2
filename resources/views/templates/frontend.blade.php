@@ -59,103 +59,19 @@
                                 <li class="nav-item dropdown dropdown-hover">
                                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-key="t-products">Products</a>
                                     <ul class="dropdown-menu submenu">
-                                        <li class="dropdown dropdown-hover">
-                                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-key="t-grid-view">Grid View</a>
-                                            <ul class="dropdown-menu submenu">
-                                                <li><a class="nav-link" href="product-grid-defualt.html" data-key="t-default">default</a></li>
-                                                <li><a class="nav-link" href="product-grid-sidebar-banner.html" data-key="t-sidebar-with-banner">Sidebar with Banner</a></li>
-                                                <li><a class="nav-link" href="product-grid-right.html" data-key="t-right-sidebar">Right Sidebar</a></li>
-                                                <li><a class="nav-link" href="product-grid.html" data-key="t-no-sidebar">No Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown dropdown-hover">
-                                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-key="t-list-view">List View</a>
-                                            <ul class="dropdown-menu submenu">
-                                                <li><a class="nav-link" href="product-list-defualt.html" data-key="t-default">default</a></li>
-                                                <li><a class="nav-link" href="product-list-left.html" data-key="t-left-sidebar">Left Sidebar</a></li>
-                                                <li><a class="nav-link" href="product-list-right.html" data-key="t-right-sidebar">Right Sidebar</a></li>
-                                                <li><a class="nav-link" href="product-list.html" data-key="t-no-sidebar">No Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a class="nav-link" href="product-details.html" data-key="t-product-details">Product Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown dropdown-hover">
-                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-key="t-users">Users</a>
-                                    <ul class="dropdown-menu submenu">
-                                        <li><a class="nav-link" href="account.html" data-key="t-my-account">My Account</a></li>
-                                        <li><a class="nav-link" href="auth-signin-basic.html" data-key="t-sign-in">Sign In</a></li>
-                                        <li><a class="nav-link" href="auth-signup-basic.html" data-key="t-sign-up">Sign Up</a></li>
-                                        <li><a class="nav-link" href="auth-pass-reset-basic.html" data-key="t-password-reset">Password Reset</a></li>
-                                        <li><a class="nav-link" href="auth-pass-change-basic.html" data-key="t-create-password">Password Create</a></li>
-                                        <li><a class="nav-link" href="auth-success-msg-basic.html" data-key="t-success-message">Success Message</a></li>
-                                        <li><a class="nav-link" href="auth-twostep-basic.html" data-key="t-two-step-verify">Two Step Verify</a></li>
-                                        <li><a class="nav-link" href="auth-logout-basic.html" data-key="t-logout">Logout</a></li>
-                                        <li><a class="nav-link" href="auth-404.html" data-key="t-error-404">Error 404</a></li>
-                                        <li><a class="nav-link" href="auth-500.html" data-key="t-error-500">Error 500</a></li>
-                                        <li><a class="nav-link" href="coming-soon.html" data-key="t-coming-soon">Coming Soon</a></li>
+                                        <li><a class="nav-link" href="product-details.html" data-key="t-product-details">Escolares</a></li>
+                                        <li><a class="nav-link" href="product-details.html" data-key="t-product-details">Limpieza</a></li>
+                                        <li><a class="nav-link" href="product-details.html" data-key="t-product-details">Varios</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a href="products-category.html" class="nav-link" data-key="t-categories">Categories</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="about-us.html" class="nav-link" data-key="t-about">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="purchase-guide.html" class="nav-link" data-key="t-purchase-guide">Purchase Guide</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="terms-conditions.html" class="nav-link" data-key="t-terms-of-service">Terms of Service</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="privacy-policy.html" class="nav-link" data-key="t-privacy-policy">Privacy Policy</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="store-locator.html" class="nav-link" data-key="t-store-locator">Store Locator</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="ecommerce-faq.html" class="nav-link" data-key="t-faq">FAQ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="invoice.html" class="nav-link" data-key="t-invoice">Invoice</a>
-                                </li>
-                                <li class="nav-item dropdown dropdown-hover">
-                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-key="t-email-template">Email Template</a>
-                                    <ul class="dropdown-menu submenu">
-                                        <li><a class="nav-link" href="email-black-friday.html" data-key="t-black-friday">Black Friday</a></li>
-                                        <li><a class="nav-link" href="email-flash-sale.html" data-key="t-flash-sale">Flash Sale</a></li>
-                                        <li><a class="nav-link" href="email-order-success.html" data-key="t-order-success">Order Success</a></li>
-                                        <li><a class="nav-link" href="email-order-success-2.html" data-key="t-order-success-2">Order Success 2</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../components/index.html" class="nav-link" target="_blank" data-key="t-components">Components <span class="badge bg-danger align-bottom ms-1">1.0</span></a>
-                                </li>
-                                <li class="nav-item dropdown dropdown-hover">
-                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-key="t-multi-level">Multi Level</a>
-                                    <ul class="dropdown-menu submenu">
-                                        <li><a class="nav-link" href="#" data-key="t-level-1.1">Level 1.1</a></li>
-                                        <li><a class="nav-link" href="#" data-key="t-level-1.2">Level 1.2</a></li>
-                                        <li class="dropdown dropdown-hover">
-                                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-key="t-level-1.3">Level 1.3</a>
-                                            <ul class="dropdown-menu submenu">
-                                                <li><a class="nav-link" href="#" data-key="t-level-2.1">Level 2.1</a></li>
-                                                <li><a class="nav-link" href="#" data-key="t-level-2.2">Level 2.2</a></li>
-                                                <li class="dropdown dropdown-hover">
-                                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-key="t-level-2.3">Level 2.3</a>
-                                                    <ul class="dropdown-menu submenu">
-                                                        <li><a class="nav-link" href="#" data-key="t-level-3.1">Level 3.1</a></li>
-                                                        <li><a class="nav-link" href="#" data-key="t-level-3.2">Level 3.2</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                    <a href="about-us.html" class="nav-link" data-key="t-about">About us</a>
                                 </li>
                             </ul>
-                        </li>
-                
+                        </li>                
                         <li class="nav-item">
                             <a class="nav-link" href="contact-us.html" data-key="t-contact">Contact</a>
                         </li>
@@ -174,32 +90,19 @@
                         </button>
                     </div>
     
-                    <div class="dropdown topbar-head-dropdown ms-2 header-item dropdown-hover-end">
-                        <button type="button" class="btn btn-icon btn-topbar btn-ghost-dark rounded-circle text-muted" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="bi bi-sun align-middle fs-20"></i>
-                        </button>
-                        <div class="dropdown-menu p-2 dropdown-menu-end" id="light-dark-mode">
-                            <a href="#!" class="dropdown-item" data-mode="light"><i class="bi bi-sun align-middle me-2"></i> Default (light mode)</a>
-                            <a href="#!" class="dropdown-item" data-mode="dark"><i class="bi bi-moon align-middle me-2"></i> Dark</a>
-                            <a href="#!" class="dropdown-item" data-mode="auto"><i class="bi bi-moon-stars align-middle me-2"></i> Auto (system default)</a>
-                        </div>
-                    </div>
                     <div class="dropdown header-item dropdown-hover-end">
                         <button type="button" class="btn" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img class="rounded-circle header-profile-user" src="front/images/users/avatar-1.jpg" alt="Header Avatar">
+                            <img class="rounded-circle header-profile-user" src="front/images/users/user-dummy-img.jpg" alt="Header Avatar">
                         </button>
                         <!-- <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="ph-user-circle fs-22"></i>
                         </button>    -->
                         <div class="dropdown-menu dropdown-menu-end">
                             <!-- item-->
-                            <h6 class="dropdown-header">Welcome Diana!</h6>
+                            <h6 class="dropdown-header">Welcome User</h6>
                             <a class="dropdown-item" href="order-history.html"><i class="bi bi-cart4 text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Order History</span></a>
                             <a class="dropdown-item" href="track-order.html"><i class="bi bi-truck text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Track Orders</span></a>
-                            <a class="dropdown-item" href="../backend/index.html"><i class="bi bi-speedometer2 text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Dashboard</span></a>
-                            <a class="dropdown-item" href="ecommerce-faq.html"><i class="mdi mdi-lifebuoy text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Help</span></a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="account.html"><i class="bi bi-coin text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Balance : <b>$8451.36</b></span></a>
                             <a class="dropdown-item" href="account.html"><span class="badge bg-success-subtle text-success mt-1 float-end">New</span><i class="mdi mdi-cog-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Settings</span></a>
                             <a class="dropdown-item" href="auth-logout-basic.html"><i class="bi bi-box-arrow-right text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">Logout</span></a>
                         </div>
@@ -486,36 +389,6 @@
             </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
 
-        <div class="modal fade" id="subscribeModal" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content border-0">
-                    <div class="modal-body p-0 bg-info-subtle rounded">
-                        <div class="row g-0 align-items-center">
-                            <div class="col-lg-6">
-                                <div class="p-4 h-100">
-                                    <span class="badge bg-info-subtle text-info  fs-13">GET 10% SALE OFF</span>
-                                    <h2 class="display-6 mt-2 mb-3">Subscribe & Get <b>50% Special</b> Discount On Email</h2>
-                                    <p class="mb-4 pb-lg-2 fs-16">Join our newsletter to receive the latest updates and promotion</p>
-                                    <form action="#!">
-                                        <div class="position-relative ecommerce-subscript">
-                                            <input type="email" class="form-control rounded-pill border-0" placeholder="Enter your email">
-                                            <button type="submit" class="btn btn-info btn-hover rounded-pill">Subscript</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="p-4 pb-0">
-                                    <img src="front/images/subscribe.png" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end modal -->
-
         <!--start back-to-top-->
         <button onclick="topFunction()" class="btn btn-info btn-icon" style="bottom: 50px;" id="back-to-top">
             <i class="ri-arrow-up-line"></i>
@@ -531,23 +404,16 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="footer-info">
-                            <img src="front/images/logo-light.png" alt="" height="28" class="logo-light">
+                            <img src="front/images/prodi.png" alt="" height="28" class="logo-light">
                             <img src="front/images/logo-dark.png" alt="" height="28" class="logo-dark">
-                            <p class="footer-desc mt-4 mb-2 me-3">Toner provides best fashion experience for both men and women at best pricing. We follow New fashion approach to give best premium feel.</p>
-
+                            <p class="footer-desc mt-4 mb-2 me-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="footer-social mt-4">
                                 <ul class="list-inline mb-0">
                                     <li class="list-inline-item">
                                         <a href="#!" class="text-reset"><i class="mdi mdi-facebook"></i></a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a href="#!" class="text-reset"><i class="mdi mdi-twitter"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
                                         <a href="#!" class="text-reset"><i class="mdi mdi-google"></i></a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#!" class="text-reset"><i class="mdi mdi-pinterest"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -559,11 +425,9 @@
                                 <div class="mt-lg-0 mt-4">
                                     <h5 class="footer-title">Categories</h5>
                                     <ul class="list-unstyled footer-link mt-3">
-                                        <li><a href="#!">Men</a></li>
-                                        <li><a href="#!">Jewellers</a></li>
-                                        <li><a href="#!">Accessories</a></li>
-                                        <li><a href="#!">Clothing</a></li>
-                                        <li><a href="#!">Beauty Items</a></li>
+                                        <li><a href="#!">Escolares</a></li>
+                                        <li><a href="#!">Limpieza</a></li>
+                                        <li><a href="#!">Varios</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -571,11 +435,7 @@
                                 <div class="mt-lg-0 mt-4">
                                     <h5 class="footer-title">Information</h5>
                                     <ul class="list-unstyled footer-link mt-3">
-                                        <li><a href="#!">Custom Service</a></li>
-                                        <li><a href="#!">FAQs</a></li>
-                                        <li><a href="#!">Ordering</a></li>
-                                        <li><a href="#!">Tracking</a></li>
-                                        <li><a href="#!">Contacts</a></li>
+                                        <li><a href="#!">About us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -586,9 +446,7 @@
                                     <ul class="list-unstyled footer-link mt-3">
                                         <li><a href="#!">Sign In</a></li>
                                         <li><a href="#!">View Cart</a></li>
-                                        <li><a href="#!">My Wishlist</a></li>
                                         <li><a href="#!">Track My Order</a></li>
-                                        <li><a href="#!">Help</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -597,11 +455,7 @@
                                 <div class="mt-lg-0 mt-4">
                                     <h5 class="footer-title">Customer Service</h5>
                                     <ul class="list-unstyled footer-link mt-3">
-                                        <li><a href="#!">Payment Methods</a></li>
-                                        <li><a href="#!">Money-back!</a></li>
-                                        <li><a href="#!">Returns</a></li>
-                                        <li><a href="#!">Shipping</a></li>
-                                        <li><a href="#!">Terms and conditions</a></li>
+                                        <li><a href="#!">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -610,9 +464,6 @@
                 </div>
 
                 <div class="row footer-border-alt mt-4 align-items-center fs-15">
-                    <div class="col-sm-6">
-                        <script>document.write(new Date().getFullYear())</script> © Toner. Design &amp; Develop by <a href="https://themesbrand.com/" target="_blank" class="text-reset text-decoration-underline">Themesbrand</a>
-                    </div>
                     <div class="col-sm-6">
                         <div class="text-sm-end d-none d-sm-block">
                             <ul class="list-inline mb-0">
