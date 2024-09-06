@@ -138,7 +138,7 @@
                                 <div class="collapse menu-dropdown" id="sidebarLocalization">
                                     <ul class="nav nav-sm flex-column">
                                         <li class="nav-item">
-                                            <a href="transactions.html" class="nav-link" data-key="t-transactions">Transactions</a>
+                                            <a href="transactions.html" class="nav-link" data-key="t-transactions">Transacción</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="currency-rates.html" class="nav-link" data-key="t-currency-rates">Currency Rates</a>
@@ -255,12 +255,12 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h4 class="mb-sm-0">Shipments</h4>
+                                    <h4 class="mb-sm-0">Envíos</h4>
 
                                     <div class="page-title-right">
                                         <ol class="breadcrumb m-0">
                                             <li class="breadcrumb-item"><a href="javascript: void(0);">Toner</a></li>
-                                            <li class="breadcrumb-item active">Shipments</li>
+                                            <li class="breadcrumb-item active">Envío</li>
                                         </ol>
                                     </div>
 
@@ -273,10 +273,10 @@
                             <div class="card-header border-bottom-dashed">
                                 <div class="row align-items-center g-3">
                                     <div class="col-xxl-3 col-sm-6">
-                                        <h6 class="card-title mb-0">Shipping</h6>
+                                        <h6 class="card-title mb-0">Envío</h6>
                                     </div>
                                     <div class="col-xxl-auto col-sm-auto ms-auto">
-                                        <button data-bs-target="#createModal" data-bs-toggle="modal" class="btn btn-success add-btn"><i class="bi bi-plus-circle me-1 align-middle"></i> Add Shipping</button>
+                                        <button data-bs-target="#createModal" data-bs-toggle="modal" class="btn btn-success add-btn"><i class="bi bi-plus-circle me-1 align-middle"></i> Agrega un envío</button>
                                     </div>
                                 </div>
                             </div>
@@ -284,16 +284,16 @@
                                 <div class="row g-3">
                                     <div class="col-xxl-3 col-lg-6">
                                         <div class="search-box">
-                                            <input type="text" class="form-control search" placeholder="Search for order ID, shipment no, customer, order status or something...">
+                                            <input type="text" class="form-control search" placeholder="Busca una Orden ID, No. Envío, cliente, estado de orden, o algo..">
                                             <i class="ri-search-line search-icon"></i>
                                         </div>
                                     </div>
                                     <div class="col-xxl-3 col-lg-6">
-                                        <input type="text" class="form-control" data-provider="flatpickr" data-date-format="d M, Y" data-range-date="true" id="demo-datepicker" placeholder="Select date">
+                                        <input type="text" class="form-control" data-provider="flatpickr" data-date-format="d M, Y" data-range-date="true" id="demo-datepicker" placeholder="Selecciona una fecha">
                                     </div>
                                     <div class="col-xxl-2 col-lg-6">
                                         <select class="form-control" data-choices data-choices-search-false name="choices-single-default" id="idStatus">
-                                            <option value="">Status</option>
+                                            <option value="">Estado</option>
                                             <option value="Pickups">Pickups</option>
                                             <option value="Pending">Pending</option>
                                             <option value="Shipping">Shipping</option>
@@ -303,8 +303,8 @@
                                     </div>
                                     <div class="col-xxl-2 col-lg-6">
                                         <select class="form-control" data-choices data-choices-search-false name="choices-single-default">
-                                            <option value="">Status</option>
-                                            <option value="all" selected>All</option>
+                                            <option value="">Estado</option>
+                                            <option value="all" selected>Todo</option>
                                             <option value="Today">Today</option>
                                             <option value="Yesterday">Yesterday</option>
                                             <option value="Last 7 Days">Last 7 Days</option>
@@ -314,7 +314,7 @@
                                         </select>
                                     </div>
                                     <div class="col-xxl-2 col-lg-6">
-                                        <button type="button" class="btn btn-primary w-100" onclick="filterData();">Filters</button>
+                                        <button type="button" class="btn btn-primary w-100" onclick="filterData();">Filtros</button>
                                     </div>
                                 </div>
                             </div>
@@ -323,15 +323,15 @@
                                     <table class="table table-nowrap align-middle" id="shipmentsTable">
                                         <thead class="table-light">
                                             <tr>
-                                                <th scope="col" data-sort="id">Order ID</th>
-                                                <th scope="col" data-sort="shipment_no">Shipment No</th>
-                                                <th scope="col" data-sort="customer_name">Customer</th>
-                                                <th scope="col" data-sort="supplier">Supplier</th>
-                                                <th scope="col" data-sort="location">Location</th>
-                                                <th scope="col" data-sort="order_date">Order Date</th>
-                                                <th scope="col" data-sort="arrival_date">Arrival Date</th>
-                                                <th scope="col" data-sort="status">Status</th>
-                                                <th scope="col">Action</th>
+                                                <th scope="col" data-sort="id">ID de la orden</th>
+                                                <th scope="col" data-sort="shipment_no">No. Envío</th>
+                                                <th scope="col" data-sort="customer_name">Cliente</th>
+                                                <th scope="col" data-sort="supplier">Proveedor</th>
+                                                <th scope="col" data-sort="location">Ubicación</th>
+                                                <th scope="col" data-sort="order_date">Orden de la fecha</th>
+                                                <th scope="col" data-sort="arrival_date">Fecha de llegada</th>
+                                                <th scope="col" data-sort="status">Estado</th>
+                                                <th scope="col">Acción</th>
                                             </tr>
                                         </thead>
                                         <tbody class="list">
@@ -343,14 +343,14 @@
                                                 <td class="location">Germany</td>
                                                 <td class="order_date">23 Dec, 2022</td>
                                                 <td class="arrival_date">15 Jan, 2023</td>
-                                                <td class="status"><span class="badge bg-success-subtle text-success ">Delivered</span></td>
+                                                <td class="status"><span class="badge bg-success-subtle text-success ">Entregado</span></td>
                                                 <td>
                                                     <ul class="hstack gap-2 list-unstyled mb-0">
                                                         <li>
-                                                            <a href="#createModal" class="badge bg-primary-subtle text-primary  edit-item-btn" data-bs-toggle="modal">Edit</a>
+                                                            <a href="#createModal" class="badge bg-primary-subtle text-primary  edit-item-btn" data-bs-toggle="modal">Esditalo</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#deleteRecordModal" data-bs-toggle="modal" class="badge bg-danger-subtle text-danger  remove-item-btn">Delete</a>
+                                                            <a href="#deleteRecordModal" data-bs-toggle="modal" class="badge bg-danger-subtle text-danger  remove-item-btn">Eliminalo</a>
                                                         </li>
                                                     </ul>
                                                 </td>
