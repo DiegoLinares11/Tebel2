@@ -4,7 +4,7 @@
     <head>
 
         <meta charset="utf-8">
-        <title>Dashboard | Toner eCommerce + Admin HTML Template</title>
+        <title>Dashboard | Tebel eCommerce + Admin HTML Template</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="eCommerce + Admin HTML Template" name="description">
         <meta content="Themesbrand" name="author">
@@ -35,89 +35,6 @@
         <!-- Begin page -->
         <div id="layout-wrapper">
             
-            <div class="top-tagbar">
-    <div class="container-fluid">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-md-4 col-9">
-                <div class="fs-14 fw-medium">
-                    <i class="bi bi-clock align-middle me-2"></i> <span id="current-time"></span>
-                </div>
-            </div>
-            <div class="col-md-4 col-6 d-none d-xxl-block">
-                <div class="d-flex align-items-center justify-content-center gap-3 fs-14 fw-medium">
-                    <div>
-                        <i class="bi bi-envelope align-middle me-2"></i> support@themesbrand.com
-                    </div>
-                    <div>
-                        <i class="bi bi-globe align-middle me-2"></i> www.themesbrand.com
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-3">
-                <div class="d-flex align-items-center justify-content-end gap-3 fs-14">
-                    <a href="#!" class="text-reset fw-normal d-none d-lg-block">
-                        Balance: <span class="fw-semibold">$8451.36</span>
-                    </a>
-                    <hr class="vr d-none d-lg-block">
-                    <div class="dropdown topbar-head-dropdown topbar-tag-dropdown justify-content-end">
-                        <button type="button" class="btn btn-icon btn-topbar text-reset rounded-circle fs-14 fw-medium" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img id="header-lang-img" src="/images/flags/us.svg" alt="Header Language" height="16" class="rounded-circle me-2"> <span id="lang-name">English</span>
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-end">
-    
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language py-2" data-lang="en" title="English">
-                                <img src="/images/flags/us.svg" alt="user-image" class="me-2 rounded-circle" height="18">
-                                <span class="align-middle">English</span>
-                            </a>
-    
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp" title="Spanish">
-                                <img src="/images/flags/spain.svg" alt="user-image" class="me-2 rounded-circle" height="18">
-                                <span class="align-middle">Española</span>
-                            </a>
-    
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr" title="German">
-                                <img src="/images/flags/germany.svg" alt="user-image" class="me-2 rounded-circle" height="18"> <span class="align-middle">Deutsche</span>
-                            </a>
-    
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it" title="Italian">
-                                <img src="/images/flags/italy.svg" alt="user-image" class="me-2 rounded-circle" height="18">
-                                <span class="align-middle">Italiana</span>
-                            </a>
-    
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru" title="Russian">
-                                <img src="/images/flags/russia.svg" alt="user-image" class="me-2 rounded-circle" height="18">
-                                <span class="align-middle">русский</span>
-                            </a>
-    
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ch" title="Chinese">
-                                <img src="/images/flags/china.svg" alt="user-image" class="me-2 rounded-circle" height="18">
-                                <span class="align-middle">中国人</span>
-                            </a>
-    
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="fr" title="French">
-                                <img src="/images/flags/french.svg" alt="user-image" class="me-2 rounded-circle" height="18">
-                                <span class="align-middle">français</span>
-                            </a>
-    
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sa" title="Arabic">
-                                <img src="/images/flags/sa.svg" alt="user-image" class="me-2 rounded-circle" height="18">
-                                <span class="align-middle">عربى</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
             <header id="page-topbar">
                 <div class="layout-width">
                     <div class="navbar-header">
@@ -126,19 +43,19 @@
                             <div class="navbar-brand-box horizontal-logo">
                                 <a href="index.html" class="logo logo-dark">
                                     <span class="logo-sm">
-                                        <img src="/images/logo-sm.png" alt="" height="22">
+                                        <img src="/images/prodin.png" alt="" height="22">
                                     </span>
                                     <span class="logo-lg">
-                                        <img src="/images/logo-dark.png" alt="" height="25">
+                                        <img src="/images/prodin.png" alt="" height="25">
                                     </span>
                                 </a>
 
                                 <a href="index.html" class="logo logo-light">
                                     <span class="logo-sm">
-                                        <img src="/images/logo-sm.png" alt="" height="22">
+                                        <img src="/images/prodin.png" alt="" height="22">
                                     </span>
                                     <span class="logo-lg">
-                                        <img src="/images/logo-light.png" alt="" height="25">
+                                        <img src="/images/prodin.png" alt="" height="25">
                                     </span>
                                 </a>
                             </div>
@@ -539,10 +456,10 @@
                             <div class="dropdown ms-sm-3 header-item topbar-user topbar-head-dropdown dropdown-hover-end">
                                 <button type="button" class="btn" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <span class="d-flex align-items-center">
-                                        <img class="rounded-circle header-profile-user" src="/images/users/avatar-1.jpg" alt="Header Avatar">
+                                        <img class="rounded-circle header-profile-user" src="/images/users/avatar-triste.jpg" alt="Header Avatar">
                                         <span class="text-start ms-xl-2">
-                                            <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Raquel Murillo</span>
-                                            <span class="d-none d-xl-block ms-1 fs-13 user-name-sub-text">Founder</span>
+                                            <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Nombre de Usuario</span>
+                                            <span class="d-none d-xl-block ms-1 fs-13 user-name-sub-text">Usuario</span>
                                         </span>
                                     </span>
                                 </button>
@@ -676,18 +593,18 @@
                 <div class="navbar-brand-box">
                     <a href="index.html" class="logo logo-dark">
                         <span class="logo-sm">
-                            <img src="/images/logo-sm.png" alt="" height="26">
+                            <img src="/images/prodin.png" alt="" height="26">
                         </span>
                         <span class="logo-lg">
-                            <img src="/images/logo-dark.png" alt="" height="26">
+                            <img src="/images/prodin.png" alt="" height="26">
                         </span>
                     </a>
                     <a href="index.html" class="logo logo-light">
                         <span class="logo-sm">
-                            <img src="/images/logo-sm.png" alt="" height="24">
+                            <img src="/images/prodin.png" alt="" height="24">
                         </span>
                         <span class="logo-lg">
-                            <img src="/images/logo-light.png" alt="" height="24">
+                            <img src="/images/prodin.png" alt="" height="24">
                         </span>
                     </a>
                     <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">
@@ -717,128 +634,6 @@
         </button>
         <!--end back-to-top-->
 
-        <a class="btn btn-danger shadow-lg chat-button rounded-bottom-0 d-none d-lg-block" data-bs-toggle="collapse" href="#chatBot" role="button" aria-expanded="false" aria-controls="chatBot">Online Chat</a>
-        <div class="collapse chat-box" id="chatBot">
-            <div class="card shadow-lg border-0 rounded-bottom-0 mb-0">
-                <div class="card-header bg-success d-flex align-items-center border-0">
-                    <h5 class="text-white fs-16 fw-medium flex-grow-1 mb-0">Hi, Raquel Murillo 👋</h5>
-                    <button type="button" class="btn-close btn-close-white flex-shrink-0" onclick="chatBot()" data-bs-dismiss="collapse" aria-label="Close"></button>
-                </div>
-                <div class="card-body p-0">
-                    <div id="users-chat-widget">
-                        <div class="chat-conversation p-3" id="chat-conversation" data-simplebar style="height: 280px;">
-                            <ul class="list-unstyled chat-conversation-list chat-sm" id="users-conversation">
-                                <li class="chat-list left">
-                                    <div class="conversation-list">
-                                        <div class="chat-avatar">
-                                            <img src="/images/logo-sm.png" alt="">
-                                        </div>
-                                        <div class="user-chat-content">
-                                            <div class="ctext-wrap">
-                                                <div class="ctext-wrap-content">
-                                                    <p class="mb-0 ctext-content">Welcome to Themesbrand. We are here to help you. You can also directly email us at Support@themesbrand.com to schedule a meeting with our Technology Consultant.</p>
-                                                </div>
-                                                <div class="dropdown align-self-start message-box-drop">
-                                                    <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        <i class="ri-more-2-fill"></i>
-                                                    </a>
-                                                    <div class="dropdown-menu">
-                                                        <a class="dropdown-item" href="#"><i class="ri-reply-line me-2 text-muted align-bottom"></i>Reply</a>
-                                                        <a class="dropdown-item" href="#"><i class="ri-file-copy-line me-2 text-muted align-bottom"></i>Copy</a>
-                                                        <a class="dropdown-item delete-item" href="#"><i class="ri-delete-bin-5-line me-2 text-muted align-bottom"></i>Delete</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="conversation-name"><small class="text-muted time">09:07 am</small> <span class="text-success check-message-icon"><i class="ri-check-double-line align-bottom"></i></span></div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- chat-list -->
-            
-                                <li class="chat-list right">
-                                    <div class="conversation-list">
-                                        <div class="user-chat-content">
-                                            <div class="ctext-wrap">
-                                                <div class="ctext-wrap-content">
-                                                    <p class="mb-0 ctext-content">Good morning, How are you? What about our next meeting?</p>
-                                                </div>
-                                                <div class="dropdown align-self-start message-box-drop">
-                                                    <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        <i class="ri-more-2-fill"></i>
-                                                    </a>
-                                                    <div class="dropdown-menu">
-                                                        <a class="dropdown-item" href="#"><i class="ri-reply-line me-2 text-muted align-bottom"></i>Reply</a>
-                                                        <a class="dropdown-item" href="#"><i class="ri-file-copy-line me-2 text-muted align-bottom"></i>Copy</a>
-                                                        <a class="dropdown-item delete-item" href="#"><i class="ri-delete-bin-5-line me-2 text-muted align-bottom"></i>Delete</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="conversation-name"><small class="text-muted time">09:08 am</small> <span class="text-success check-message-icon"><i class="ri-check-double-line align-bottom"></i></span></div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- chat-list -->
-            
-                                <li class="chat-list left">
-                                    <div class="conversation-list">
-                                        <div class="chat-avatar">
-                                            <img src="/images/logo-sm.png" alt="">
-                                        </div>
-                                        <div class="user-chat-content">
-                                            <div class="ctext-wrap">
-                                                <div class="ctext-wrap-content">
-                                                    <p class="mb-0 ctext-content">Yeah everything is fine. Our next meeting tomorrow at 10.00 AM</p>
-                                                </div>
-                                                <div class="dropdown align-self-start message-box-drop">
-                                                    <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        <i class="ri-more-2-fill"></i>
-                                                    </a>
-                                                    <div class="dropdown-menu">
-                                                        <a class="dropdown-item" href="#"><i class="ri-reply-line me-2 text-muted align-bottom"></i>Reply</a>
-                                                        <a class="dropdown-item" href="#"><i class="ri-file-copy-line me-2 text-muted align-bottom"></i>Copy</a>
-                                                        <a class="dropdown-item delete-item" href="#"><i class="ri-delete-bin-5-line me-2 text-muted align-bottom"></i>Delete</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="conversation-name"><small class="text-muted time">09:10 am</small> <span class="text-success check-message-icon"><i class="ri-check-double-line align-bottom"></i></span></div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- chat-list -->
-            
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="border-top border-top-dashed">
-                        <div class="row g-2 mt-2 mx-3 mb-3">
-                            <div class="col">
-                                <div class="position-relative">
-                                    <input type="text" class="form-control border-light bg-light" placeholder="Enter Message...">
-                                </div>
-                            </div><!-- end col -->
-                            <div class="col-auto">
-                                <button type="submit" class="btn btn-info"><i class="mdi mdi-send"></i></button>
-                            </div><!-- end col -->
-                        </div><!-- end row -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--preloader-->
-        <div id="preloader">
-            <div id="status">
-                <div class="spinner-border text-primary avatar-sm" role="status">
-                    <span class="visually-hidden">Loading...</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="customizer-setting d-none d-md-block">
-            <div class="btn-secondary btn-rounded shadow-lg btn btn-icon btn-lg p-2" data-bs-toggle="offcanvas" data-bs-target="#theme-settings-offcanvas" aria-controls="theme-settings-offcanvas">
-                <i class='mdi mdi-spin mdi-cog-outline fs-22'></i>
-            </div>
-        </div>
 
         <!-- Theme Settings -->
         <div class="offcanvas offcanvas-end border-0" tabindex="-1" id="theme-settings-offcanvas">
