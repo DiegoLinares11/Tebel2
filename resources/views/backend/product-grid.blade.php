@@ -1,6 +1,6 @@
 @extends('templates.backend')
 
-@section('content')
+
 <!doctype html>
 <html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="light" data-sidebar-size="lg" data-sidebar-image="none" data-preloader="disable" data-body-image="none">
 
@@ -694,7 +694,7 @@
                     <i class="ri-record-circle-line"></i>
                 </button>
             </div>
-
+            @section('sidebar')
             <div id="scrollbar">
                 <div class="container-fluid">
 
@@ -703,7 +703,7 @@
                     <ul class="navbar-nav" id="navbar-nav">
                         <li class="menu-title"><span data-key="t-menu">Menu</span></li>
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link menu-link"> <i class="bi bi-speedometer2"></i> <span data-key="t-dashboard">Dashboard</span> <span class="badge badge-pill bg-danger-subtle text-danger " data-key="t-hot">Hot</span></a>
+                            <a href="/backend/" class="nav-link menu-link"> <i class="bi bi-speedometer2"></i> <span data-key="t-dashboard">Dashboard</span> <span class="badge badge-pill bg-danger-subtle text-danger " data-key="t-hot">Hot</span></a>
                         </li>
 
                         <li class="nav-item">
@@ -939,6 +939,7 @@
 
             <div class="sidebar-background"></div>
         </div>
+        @stop
         <!-- Left Sidebar End -->
         <!-- Vertical Overlay-->
         <div class="vertical-overlay"></div>
@@ -946,6 +947,7 @@
         <!-- ============================================================== -->
         <!-- Start right Content here -->
         <!-- ============================================================== -->
+        @section('content')
         <div class="main-content">
 
             <div class="page-content">
@@ -1356,7 +1358,7 @@
             </footer>
         </div>
         <!-- end main content-->
-
+        @stop
     </div>
     <!-- END layout-wrapper -->
 
@@ -2521,4 +2523,3 @@
 </body>
 
 </html>
-@stop
