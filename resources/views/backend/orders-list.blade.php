@@ -8,7 +8,7 @@
                     <div id="two-column-menu">
                     </div>
                     <ul class="navbar-nav" id="navbar-nav">
-                        <li class="menu-title"><span data-key="t-menu">Menu</span></li>
+                       <li class="menu-title"><span data-key="t-menu">Menu</span></li>
                         <li class="nav-item">
                             <a href="index.html" class="nav-link menu-link"> <i class="bi bi-speedometer2"></i> <span data-key="t-dashboard">Dashboard</span> <span class="badge badge-pill bg-danger-subtle text-danger " data-key="t-hot">Hot</span></a>
                         </li>
