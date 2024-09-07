@@ -11,6 +11,9 @@ use App\Http\Controllers\Backend\OrdersController;
 Route::get('/', [FrontendController::class, 'index']);
 Route::get('/products', [FrontendController::class, 'products']);
 Route::get('/contact', [FrontendController::class, 'contact']);
+Route::get('/signup', [FrontendController::class, 'signup']);
+Route::get('/login', [FrontendController::class, 'login']);
+Route::get('/about', [FrontendController::class, 'about']);
 
 // BACKEND
 Route::prefix('backend')->group(function () {
