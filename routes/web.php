@@ -15,6 +15,7 @@ Route::get('/contact', [FrontendController::class, 'contact']);
 Route::get('/signup', [FrontendController::class, 'signup']);
 Route::get('/login', [FrontendController::class, 'login']);
 Route::get('/about', [FrontendController::class, 'about']);
+Route::get('/trackorder', [FrontendController::class, 'trackorder']);
 
 // BACKEND
 Route::prefix('backend')->group(function () {
