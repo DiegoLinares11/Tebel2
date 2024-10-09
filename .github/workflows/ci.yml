@@ -1,9 +1,12 @@
 name: Run tests and backend
 
+
 on:
-  pull_request:
-    branches: ['main']
-  workflow_dispatch:
+    push:
+      branches: ['main']  # También puedes especificar otras ramas si lo deseas
+    pull_request:
+      branches: ['main']
+    workflow_dispatch:
 
 jobs:
   frontend-tests:
