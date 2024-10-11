@@ -22,7 +22,7 @@ jobs:
 
       - name: Set up Docker Compose
         run: |
-          docker-compose -f docker-compose.yml up -d
+          docker-compose -f Scrum/backend/docker-compose.yml up -d
 
       - name: Install Composer Dependencies
         run: |
@@ -43,4 +43,4 @@ jobs:
 
       - name: Shut down Docker Compose
         run: |
-          docker-compose -f docker-compose.yml down
+          docker-compose -f Scrum/backend/docker-compose.yml down
