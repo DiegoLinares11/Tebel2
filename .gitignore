@@ -19,4 +19,7 @@ yarn-error.log
 /.idea
 /.vscode
 docker-compose.yml
+package-lock.json
+composer.lock
+
 

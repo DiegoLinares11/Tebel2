@@ -44,20 +44,21 @@
                                     <div class="card-body">
                                         <p class="text-muted fs-15">Sign in to continue to the store.</p>
                                         <div class="p-2">
-                                            <form action="index.html">
+                                            <form action="/login" method="POST">
+                                                @csrf
                 
                                                 <div class="mb-3">
                                                     <label for="username" class="form-label">Username</label>
-                                                    <input type="text" class="form-control" id="username" placeholder="Enter username">
+                                                    <input type="email" class="form-control" name="username" placeholder="Enter username">
                                                 </div>
                 
                                                 <div class="mb-3">
                                                     <div class="float-end">
                                                         <a href="auth-pass-reset-basic.html" class="text-muted">Forgot password?</a>
                                                     </div>
-                                                    <label class="form-label" for="password-input">Password</label>
+                                                    <label class="form-label" for="password">Password</label>
                                                     <div class="position-relative auth-pass-inputgroup mb-3">
-                                                        <input type="password" class="form-control pe-5 password-input" placeholder="Enter password" id="password-input">
+                                                        <input type="password" class="form-control pe-5 password-input" placeholder="Enter password" name="password">
                                                         <button class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon" type="button" id="password-addon"><i class="ri-eye-fill align-middle"></i></button>
                                                     </div>
                                                 </div>
@@ -79,6 +80,8 @@
                                                         <button type="button" class="btn btn-soft-danger btn-icon"><i class="ri-google-fill fs-16"></i></button>
                                                     </div>
                                                 </div>
+
+                                            <!-- END FORM -->
                                             </form>
                 
                                             <div class="text-center mt-5">
