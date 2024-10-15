@@ -76,7 +76,7 @@
                                         <p class="text-muted fs-15">Consigue tu cuenta ahora</p>
                                         <div class="p-2">
                                             <form class="needs-validation" novalidate action="index.html">
-                                        
+
                                                 <div class="mb-3">
                                                     <label for="useremail" class="form-label">Email <span class="text-danger">*</span></label>
                                                     <input type="email" class="form-control" id="useremail" placeholder="Enter email address" required>
@@ -91,7 +91,7 @@
                                                         Please enter username
                                                     </div>
                                                 </div>
-                                        
+
                                                 <div class="mb-3">
                                                     <label class="form-label" for="password-input">Password</label>
                                                     <div class="position-relative auth-pass-inputgroup">
@@ -102,11 +102,11 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                        
+
                                                 <div class="mb-4">
                                                     <p class="mb-0 fs-12 text-muted fst-italic">By registering you agree to the Toner <a href="#" class="text-primary text-decoration-underline fst-normal fw-medium">Terms of Use</a></p>
                                                 </div>
-                                        
+
                                                 <div id="password-contain" class="p-3 bg-light mb-2 rounded">
                                                     <h5 class="fs-13">Password must contain:</h5>
                                                     <p id="pass-length" class="invalid fs-12 mb-2">Minimum <b>8 characters</b></p>
@@ -114,16 +114,16 @@
                                                     <p id="pass-upper" class="invalid fs-12 mb-2">At least <b>uppercase</b> letter (A-Z)</p>
                                                     <p id="pass-number" class="invalid fs-12 mb-0">A least <b>number</b> (0-9)</p>
                                                 </div>
-                                        
+
                                                 <div class="mt-4">
-                                                    <button class="btn btn-primary w-100" type="submit">Sign Up</button>
+                                                    <a href=" {{ route('login') }} " class="btn btn-primary w-100" >Sign Up</a>
                                                 </div>
-                                        
+
                                                 <div class="mt-4 text-center">
                                                     <div class="signin-other-title">
                                                         <h5 class="fs-13 mb-4 title text-muted">Create account with</h5>
                                                     </div>
-                                        
+
                                                     <div>
                                                         <button type="button" class="btn btn-soft-primary btn-icon "><i class="ri-facebook-fill fs-16"></i></button>
                                                         <button type="button" class="btn btn-soft-danger btn-icon "><i class="ri-google-fill fs-16"></i></button>
@@ -134,7 +134,7 @@
                                             </form>
                                         </div>
                                         <div class="mt-4 text-center">
-                                            <p class="mb-0">Already have an account ? <a href="auth-signin-basic.html" class="fw-semibold text-primary text-decoration-underline"> Signin </a> </p>
+                                            <p class="mb-0">Already have an account ? <a href="{{route('signup')}}" class="fw-semibold text-primary text-decoration-underline"> Signin </a> </p>
                                         </div>
                                     </div>
                                 </div>
@@ -165,7 +165,7 @@
         <script src="/js/plugins.js"></script>
 
         <script src="/js/pages/password-match.init.js"></script>
-        
+
         <script src="/js/pages/password-addon.init.js"></script>
 
     </body>

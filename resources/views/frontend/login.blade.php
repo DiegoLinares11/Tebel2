@@ -45,12 +45,12 @@
                                         <p class="text-muted fs-15">Sign in to continue to the store.</p>
                                         <div class="p-2">
                                             <form action="index.html">
-                
+
                                                 <div class="mb-3">
                                                     <label for="username" class="form-label">Username</label>
                                                     <input type="text" class="form-control" id="username" placeholder="Enter username">
                                                 </div>
-                
+
                                                 <div class="mb-3">
                                                     <div class="float-end">
                                                         <a href="auth-pass-reset-basic.html" class="text-muted">Forgot password?</a>
@@ -61,16 +61,16 @@
                                                         <button class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon" type="button" id="password-addon"><i class="ri-eye-fill align-middle"></i></button>
                                                     </div>
                                                 </div>
-                
+
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="auth-remember-check">
                                                     <label class="form-check-label" for="auth-remember-check">Remember me</label>
                                                 </div>
-                
+
                                                 <div class="mt-4">
-                                                    <button class="btn btn-primary w-100" type="submit">Sign In</button>
+                                                    <a href="{{  route('home') }}" class="btn btn-primary w-100" type="submit">Sign In</a>
                                                 </div>
-                
+
                                                 <div class="mt-4 pt-2 text-center">
                                                     <div class="signin-other-title">
                                                         <h5 class="fs-13 mb-4 title">Sign In with</h5>
@@ -80,9 +80,9 @@
                                                     </div>
                                                 </div>
                                             </form>
-                
+
                                             <div class="text-center mt-5">
-                                                <p class="mb-0">Don't have an account ? <a href="auth-signup-basic.html" class="fw-semibold text-secondary text-decoration-underline"> SignUp</a> </p>
+                                                <p class="mb-0">Don't have an account ? <a href="{{ route('signup') }}" class="fw-semibold text-secondary text-decoration-underline"> SignUp</a> </p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,7 +93,7 @@
                 </div><!--end container-->
             </div>
         </section>
-        
+
         <!-- JAVASCRIPT -->
         <script src="front/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="front/libs/simplebar/simplebar.min.js"></script>

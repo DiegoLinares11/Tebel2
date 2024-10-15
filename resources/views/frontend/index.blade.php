@@ -20,7 +20,7 @@
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
-        </div><!--end container-fluid--> 
+        </div><!--end container-fluid-->
     </section>
 
     {{-- Commerce items --}}
@@ -91,7 +91,7 @@
         </div><!--end container-->
     </section>
     <!--end section-->
-    
+
     {{-- Trending products --}}
     <section class="py-5 border-bottom" style="margin-top: 50px;">
         <div class="container-fluid container-custom">

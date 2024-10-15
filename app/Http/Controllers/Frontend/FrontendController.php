@@ -2,6 +2,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\Product;
 
 class FrontendController extends Controller
 {
@@ -38,5 +39,11 @@ class FrontendController extends Controller
     public function trackorder()
     {
         return view('frontend.trackorder');
+    }
+
+    public function singleproduct($id)
+    {
+        $producto = Product::findOrFail($id);
+        return view('frontend.singleproduct', compact('producto'));
     }
 }
