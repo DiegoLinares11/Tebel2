@@ -518,6 +518,7 @@ File: Main Css File
 }
 
 .footer-landing {
+  background-color: #001489;
   border-top: 1px solid var(--tb-border-color-translucent);
 }
 .footer-landing .footer-desc {
@@ -567,7 +568,7 @@ File: Main Css File
 }
 
 [data-footer=dark] .footer-landing {
-  background-color: #0B1729;
+  background-color: #001489;
   border-top-color: #132846;
 }
 [data-footer=dark] .footer-landing .logo-light {
@@ -13565,8 +13566,8 @@ span.flatpickr-weekday {
 .home-widgets {
   min-height: 85vh;
   height: 400px;
-}ht: calc(100% - 20px);
-}
+};
+
 
 .trend-fashion-home {
   position: relative;

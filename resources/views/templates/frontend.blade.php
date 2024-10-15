@@ -399,7 +399,7 @@
             @yield('content')
         </div>
 
-        <section class="section footer-landing pb-0">
+        <section class="section footer-landing pb-0" style="background-color: !important; #001489; color: #ffffff !important;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">

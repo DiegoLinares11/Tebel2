@@ -293,11 +293,11 @@
                                     </div>
                                     <div class="col-xxl-2 col-lg-6">
                                         <select class="form-control" data-choices data-choices-search-false name="choices-single-default" id="idStatus">
-                                            <option value="">Status</option>
-                                            <option value="Pickups">Pickups</option>
-                                            <option value="Pending">Pending</option>
-                                            <option value="Shipping">Shipping</option>
-                                            <option value="Delivered">Delivered</option>
+                                            <option value="">Estado</option>
+                                            <option value="Pickups">Recogimientos</option>
+                                            <option value="Pending">Pendientes</option>
+                                            <option value="Shipping">Entregando</option>
+                                            <option value="Delivered">Entregado</option>
                                             <option value="Out Of Delivery">Out Of Delivery</option>
                                         </select>
                                     </div>
