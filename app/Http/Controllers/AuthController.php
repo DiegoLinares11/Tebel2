@@ -27,7 +27,6 @@ class AuthController extends Controller
             Auth::login($user);
             return redirect()->intended('index');
         } else {
-            dd("NO SE PUDO");
             // Retornar un mensaje de error
             return back()->withErrors([
                 'message' => 'El usuario o la contraseña son incorrectos.',

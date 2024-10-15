@@ -22,7 +22,7 @@ Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AuthController::class, 'login'])->name('login');
 
 // BACKEND
-Route::prefix('backend')->group(function () {
+Route::prefix('backend')->middleware(["auth"])->group(function () {
     // Route::resource('clients', ClientsController::class);
     Route::get('/', [ProductsController::class, 'index']);
     Route::get('products/grid', [ProductsController::class, 'grid']);
