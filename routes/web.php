@@ -16,7 +16,7 @@ Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 Route::get('/signup', [FrontendController::class, 'signup']);
 Route::get('/about', [FrontendController::class, 'about']);
 Route::get('/trackorder', [FrontendController::class, 'trackorder']);
-
+Route::get('/profile', [FrontendController::class, 'profile']);
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 
 Route::post('/login', [AuthController::class, 'login'])->name('login');

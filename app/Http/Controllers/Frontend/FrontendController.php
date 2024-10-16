@@ -39,4 +39,8 @@ class FrontendController extends Controller
     {
         return view('frontend.trackorder');
     }
+
+    public function profile(){
+        return view('frontend.profile');
+    }
 }
