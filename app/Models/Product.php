@@ -9,9 +9,9 @@ class Product extends Model
 {
     use HasFactory;
 
+    // Define the table if it's different from the default 'products'
+    protected $table = 'products';
 
-    public function category(){
-        return $this->belongsTo(Category::class);
-    }
-
+    // Define fillable fields to avoid mass assignment issues
+    protected $fillable = ['name', 'description', 'price', 'image_path'];
 }

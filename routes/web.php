@@ -8,6 +8,7 @@ use App\Http\Controllers\Backend\SignUpController;
 use App\Http\Controllers\Backend\OrdersController;
 use App\Http\Controllers\Backend\ShipmentsController;
 use App\Http\Controllers\Backend\SingleProductController;
+use App\Http\Controllers\ProductController;
 
 
 // FRONTEND
@@ -19,9 +20,10 @@ Route::get('/login', [FrontendController::class, 'login'])->name('login');
 Route::get('/about', [FrontendController::class, 'about'])->name('about');
 Route::get('/trackorder', [FrontendController::class, 'trackorder'])->name('trackorder');
 Route::get('/singleproduct/{id}', [FrontendController::class, 'singleproduct'])->name('singleproduct');
+Route::get('/products', [ProductsController::class, 'index'])->name('frontend.products.index');
 
 Route::get("/test", [MailController::class, 'sendMail']);
-
+Route::get('/backend/products', [ProductsController::class, 'index'])->name('products');
 
 // BACKEND
 Route::prefix('backend')->group(function () {
@@ -33,5 +35,5 @@ Route::prefix('backend')->group(function () {
     Route::get('shipments', [ShipmentsController::class, 'ship']);
     Route::resource('signup', SignUpController::class);
     Route::get('singleproduct', [SingleProductController::class, 'singleproduct']);
-
+    
 });

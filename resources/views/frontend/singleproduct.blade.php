@@ -67,7 +67,7 @@
                                 <div class="swiper productSwiper2">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide ">
-                                            <img src="{{asset('images/products/img-12.png') }}" alt="" class="img-fluid" />
+                                            <img src="{{asset('images/products/img-35.JPG') }}" alt="" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="swiper-button-next bg-transparent"></div>
@@ -101,7 +101,7 @@
                                     <i class="ri-star-fill align-bottom"></i>
                                     <i class="ri-star-half-fill align-bottom"></i>
                                 </div>
-                                <span class="fw-medium"> (50 Review)</span>
+                                <span class="fw-medium"> (50 Reviews)</span>
                             </div>
                             <h4 class="lh-base mb-1">{{ $producto->name }}</h4>
                             <p class="text-muted mb-4">{{ $producto->description }} </p>
@@ -114,7 +114,7 @@
                             </ul>
                         </div>
                         <div class="d-flex align-items-center mb-4">
-                            <h5 class="fs-15 mb-0">Quantity:</h5>
+                            <h5 class="fs-15 mb-0">Cantidad:</h5>
                             <div class="input-step ms-2">
                                 <button type="button" class="minus">–</button>
                                 <input type="number" class="product-quantity1" value="1" min="0" max="100" readonly="">

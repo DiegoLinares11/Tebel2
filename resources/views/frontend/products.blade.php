@@ -22,205 +22,11 @@
         </div><!--end container-->
     </section>
 
-    {{-- Products Grid --}}
-    <div class="position-relative section">
-        <div class="container">
-            <div class="ecommerce-product gap-4">
-                <div class="flex-grow-1">
-                    <div class="d-flex align-items-center gap-2 mb-4">
-                        <p class="text-muted flex-grow-1 mb-0">Showing 1-12 of 84 results</p>
+    <div class="container position-relative section">
+        <div class="row">
 
-                        <div class="flex-shrink-0">
-                            <select class="form-select w-md" id="sort-elem">
-                                <option value="">All</option>
-                                <option value="low_to_high">Low to High</option>
-                                <option value="high_to_low">High to Low</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row" id="product-grid-right">
-                        <div class="col-xxl-4 col-lg-6">
-                            <div class="card overflow-hidden element-item">
-                                <div class="bg-dark-subtle py-4">
-                                    <div class="gallery-product">
-                                        <img src="front/images/products/img-8.png" alt="" style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
-                                    </div>
-                                    <p class="fs-11 fw-medium badge bg-primary py-2 px-3 product-lable mb-0">Best Arrival</p>
-                                    <div class="gallery-product-actions">
-                                        <div class="mb-2">
-                                            <button type="button" class="btn btn-danger btn-sm custom-toggle" data-bs-toggle="button">
-                                                <span class="icon-on"><i class="mdi mdi-heart-outline align-bottom fs-15"></i></span>
-                                                <span class="icon-off"><i class="mdi mdi-heart align-bottom fs-15"></i></span>
-                                            </button>
-                                        </div>
-                                        <div>
-                                            <button type="button" class="btn btn-success btn-sm custom-toggle" data-bs-toggle="button">
-                                                <span class="icon-on"><i class="mdi mdi-eye-outline align-bottom fs-15"></i></span>
-                                                <span class="icon-off"><i class="mdi mdi-eye align-bottom fs-15"></i></span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="product-btn px-3">
-                                        <a href="#!" class="btn btn-primary btn-sm w-75 add-btn"><i class="mdi mdi-cart me-1"></i> Add to Cart</a>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <div>
-                                        <a href="#!">
-                                            <h6 class="fs-16 lh-base text-truncate mb-0">Producto 1</h6>
-                                        </a>
-                                        <div class="mt-3">
-                                            <span class="float-end">4.9 <i class="ri-star-half-fill text-warning align-bottom"></i></span>
-                                            <h5 class="text-secondary mb-0">$0.00 <span class="text-muted fs-12"><del>$0.00</del></span></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <!-- Repite lo mismo para los otros productos, cambiando el nombre y asegurando que el precio sea $0.00 -->
-                        <div class="col-xxl-4 col-lg-6">
-                            <div class="card overflow-hidden element-item">
-                                <div class="bg-secondary-subtle py-4">
-                                    <div class="gallery-product">
-                                        <img src="front/images/products/img-15.png" alt="" style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
-                                    </div>
-                                    <div class="gallery-product-actions">
-                                        <div class="mb-2">
-                                            <button type="button" class="btn btn-danger btn-sm custom-toggle" data-bs-toggle="button">
-                                                <span class="icon-on"><i class="mdi mdi-heart-outline align-bottom fs-15"></i></span>
-                                                <span class="icon-off"><i class="mdi mdi-heart align-bottom fs-15"></i></span>
-                                            </button>
-                                        </div>
-                                        <div>
-                                            <button type="button" class="btn btn-success btn-sm custom-toggle" data-bs-toggle="button">
-                                                <span class="icon-on"><i class="mdi mdi-eye-outline align-bottom fs-15"></i></span>
-                                                <span class="icon-off"><i class="mdi mdi-eye align-bottom fs-15"></i></span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="product-btn px-3">
-                                        <a href="#!" class="btn btn-primary btn-sm w-75 add-btn"><i class="mdi mdi-cart me-1"></i> Add to Cart</a>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <div>
-                                        <a href="#!">
-                                            <h6 class="fs-16 lh-base text-truncate mb-0">Producto 2</h6>
-                                        </a>
-                                        <div class="mt-3">
-                                            <span class="float-end">4.2 <i class="ri-star-half-fill text-warning align-bottom"></i></span>
-                                            <h5 class="text-secondary mb-0">$0.00 <span class="text-muted fs-12"><del>$0.00</del></span></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <div class="col-xxl-4 col-lg-6">
-                            <div class="card overflow-hidden element-item">
-                                <div class="bg-secondary-subtle py-4">
-                                    <div class="gallery-product">
-                                        <img src="front/images/products/img-15.png" alt="" style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
-                                    </div>
-                                    <div class="gallery-product-actions">
-                                        <div class="mb-2">
-                                            <button type="button" class="btn btn-danger btn-sm custom-toggle" data-bs-toggle="button">
-                                                <span class="icon-on"><i class="mdi mdi-heart-outline align-bottom fs-15"></i></span>
-                                                <span class="icon-off"><i class="mdi mdi-heart align-bottom fs-15"></i></span>
-                                            </button>
-                                        </div>
-                                        <div>
-                                            <button type="button" class="btn btn-success btn-sm custom-toggle" data-bs-toggle="button">
-                                                <span class="icon-on"><i class="mdi mdi-eye-outline align-bottom fs-15"></i></span>
-                                                <span class="icon-off"><i class="mdi mdi-eye align-bottom fs-15"></i></span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="product-btn px-3">
-                                        <a href="#!" class="btn btn-primary btn-sm w-75 add-btn"><i class="mdi mdi-cart me-1"></i> Add to Cart</a>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <div>
-                                        <a href="#!">
-                                            <h6 class="fs-16 lh-base text-truncate mb-0">Producto 3</h6>
-                                        </a>
-                                        <div class="mt-3">
-                                            <span class="float-end">4.2 <i class="ri-star-half-fill text-warning align-bottom"></i></span>
-                                            <h5 class="text-secondary mb-0">$0.00 <span class="text-muted fs-12"><del>$0.00</del></span></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                        <div class="col-xxl-4 col-lg-6">
-                            <div class="card overflow-hidden element-item">
-                                <div class="bg-secondary-subtle py-4">
-                                    <div class="gallery-product">
-                                        <img src="front/images/products/img-15.png" alt="" style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
-                                    </div>
-                                    <div class="gallery-product-actions">
-                                        <div class="mb-2">
-                                            <button type="button" class="btn btn-danger btn-sm custom-toggle" data-bs-toggle="button">
-                                                <span class="icon-on"><i class="mdi mdi-heart-outline align-bottom fs-15"></i></span>
-                                                <span class="icon-off"><i class="mdi mdi-heart align-bottom fs-15"></i></span>
-                                            </button>
-                                        </div>
-                                        <div>
-                                            <button type="button" class="btn btn-success btn-sm custom-toggle" data-bs-toggle="button">
-                                                <span class="icon-on"><i class="mdi mdi-eye-outline align-bottom fs-15"></i></span>
-                                                <span class="icon-off"><i class="mdi mdi-eye align-bottom fs-15"></i></span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="product-btn px-3">
-                                        <a href="#!" class="btn btn-primary btn-sm w-75 add-btn"><i class="mdi mdi-cart me-1"></i> Add to Cart</a>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <div>
-                                        <a href="#!">
-                                            <h6 class="fs-16 lh-base text-truncate mb-0">Producto 4</h6>
-                                        </a>
-                                        <div class="mt-3">
-                                            <span class="float-end">4.2 <i class="ri-star-half-fill text-warning align-bottom"></i></span>
-                                            <h5 class="text-secondary mb-0">$0.00 <span class="text-muted fs-12"><del>$0.00</del></span></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                    </div><!--end row-->
-                    
-
-                    <div class="row" id="pagination-element">
-                        <div class="col-lg-12">
-                            <div class="pagination-block pagination pagination-separated justify-content-center justify-content-sm-end mb-sm-0">
-                                <div class="page-item">
-                                    <a href="javascript:void(0);" class="page-link" id="page-prev">Previous</a>
-                                </div>
-                                <span id="page-num" class="pagination"></span>
-                                <div class="page-item">
-                                    <a href="javascript:void(0);" class="page-link" id="page-next">Next</a>
-                                </div>
-                            </div>
-                        </div><!--end col-->
-                    </div><!--end row-->
-
-                    <div class="row d-none" id="search-result-elem">
-                        <div class="col-lg-12">
-                            <div class="text-center py-5">
-                                <div class="avatar-lg mx-auto mb-4">
-                                    <div class="avatar-title bg-primary-subtle text-primary rounded-circle fs-24">
-                                        <i class="bi bi-search"></i>
-                                    </div>
-                                </div>
-
-                                <h5>No matching records found</h5>
-                            </div>
-                        </div><!--end col-->
-                    </div><!--end row-->
-                </div>
-
+            {{-- Sidebar de filtros --}}
+            <div class="col-lg-3">
                 <div class="sidebar small-sidebar flex-shrink-0">
                     <div class="card overflow-hidden">
                         <div class="card-header">
@@ -240,7 +46,6 @@
                         </div>
 
                         <div class="accordion accordion-flush filter-accordion">
-
                             <div class="card-body border-bottom">
                                 <div>
                                     <p class="text-muted text-uppercase fs-12 fw-medium mb-3">Products</p>
@@ -281,7 +86,9 @@
 
                                 <div id="product-price-range" data-slider-color="info"></div>
                                 <div class="formCost d-flex gap-2 align-items-center mt-3">
-                                    <input class="form-control form-control-sm" type="text" id="minCost" value="0"> <span class="fw-semibold text-muted">to</span> <input class="form-control form-control-sm" type="text" id="maxCost" value="1000">
+                                    <input class="form-control form-control-sm" type="text" id="minCost" value="0"> 
+                                    <span class="fw-semibold text-muted">to</span> 
+                                    <input class="form-control form-control-sm" type="text" id="maxCost" value="1000">
                                 </div>
                             </div>  
                         </div>
@@ -289,6 +96,104 @@
                     <!-- end card -->
                 </div>
             </div>
+
+            {{-- Products Grid --}}
+            <div class="col-lg-9">
+                <div class="ecommerce-product gap-4">
+                    <div class="flex-grow-1">
+                        <div class="d-flex align-items-center gap-2 mb-4">
+                            <p class="text-muted flex-grow-1 mb-0">Mostrando {{ $products->firstItem() }}-{{ $products->lastItem() }} de {{ $products->total() }} resultados</p>
+
+                            <div class="flex-shrink-0">
+                                <select class="form-select w-md" id="sort-elem">
+                                    <option value="">All</option>
+                                    <option value="low_to_high">Low to High</option>
+                                    <option value="high_to_low">High to Low</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row" id="product-grid-right">
+                            @foreach ($products as $product)
+                                <div class="col-xxl-4 col-lg-6">
+                                    <div class="card overflow-hidden element-item">
+                                        <div class="bg-dark-subtle py-4">
+                                            <div class="gallery-product">
+                                                <img src="{{ asset('images/products/' . $product->image_path) }}" alt="{{ $product->name }}" style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
+                                            </div>
+                                            <p class="fs-11 fw-medium badge bg-primary py-2 px-3 product-lable mb-0">Best Arrival</p>
+                                            <div class="gallery-product-actions">
+                                                <div class="mb-2">
+                                                    <button type="button" class="btn btn-danger btn-sm custom-toggle" data-bs-toggle="button">
+                                                        <span class="icon-on"><i class="mdi mdi-heart-outline align-bottom fs-15"></i></span>
+                                                        <span class="icon-off"><i class="mdi mdi-heart align-bottom fs-15"></i></span>
+                                                    </button>
+                                                </div>
+                                                <div>
+                                                    <button type="button" class="btn btn-success btn-sm custom-toggle" data-bs-toggle="button">
+                                                        <span class="icon-on"><i class="mdi mdi-eye-outline align-bottom fs-15"></i></span>
+                                                        <span class="icon-off"><i class="mdi mdi-eye align-bottom fs-15"></i></span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="product-btn px-3">
+                                                <a href="#!" class="btn btn-primary btn-sm w-75 add-btn"><i class="mdi mdi-cart me-1"></i> Add to Cart</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <a href="#!">
+                                                <h6 class="fs-16 lh-base text-truncate mb-0">{{ $product->name }}</h6>
+                                            </a>
+                                            <div class="mt-3">
+                                                <span class="float-end">{{ $product->rating }} <i class="ri-star-half-fill text-warning align-bottom"></i></span>
+                                                <h5 class="text-secondary mb-0">${{ $product->price }} <span class="text-muted fs-12"><del>$0.00</del></span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                            @endforeach
+                        </div><!--end row-->
+
+                        {{-- Paginación --}}
+                        <div class="pagination-block pagination pagination-separated justify-content-center justify-content-sm-end mb-sm-0">
+                            <ul class="pagination">
+                                {{-- Link to the previous page --}}
+                                @if ($products->onFirstPage())
+                                    <li class="page-item disabled">
+                                        <span class="page-link"><i class="ri-arrow-left-line"></i></span>
+                                    </li>
+                                @else
+                                    <li class="page-item">
+                                        <a class="page-link" href="{{ $products->previousPageUrl() }}" rel="prev">
+                                            <i class="ri-arrow-left-line"></i>
+                                        </a>
+                                    </li>
+                                @endif
+
+                                {{-- Paginate through the pages --}}
+                                @foreach ($products->links()->elements[0] as $page => $url)
+                                    <li class="page-item {{ $products->currentPage() == $page ? 'active' : '' }}">
+                                        <a class="page-link" href="{{ $url }}">{{ $page }}</a>
+                                    </li>
+                                @endforeach
+
+                                {{-- Link to the next page --}}
+                                @if ($products->hasMorePages())
+                                    <li class="page-item">
+                                        <a class="page-link" href="{{ $products->nextPageUrl() }}" rel="next">
+                                            <i class="ri-arrow-right-line"></i>
+                                        </a>
+                                    </li>
+                                @else
+                                    <li class="page-item disabled">
+                                        <span class="page-link"><i class="ri-arrow-right-line"></i></span>
+                                    </li>
+                                @endif
+                            </ul>
+                        </div>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
         </div><!--end container-->
     </div>
 @stop
