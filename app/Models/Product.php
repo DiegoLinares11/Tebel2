@@ -13,5 +13,11 @@ class Product extends Model
     protected $table = 'products';
 
     // Define fillable fields to avoid mass assignment issues
-    protected $fillable = ['name', 'description', 'price', 'image_path'];
+    protected $fillable = ['id', 'name', 'description', 'price', 'image_path', 'category_id']; // Assuming 'category_id' is the foreign key
+
+    // Define the relationship with the Category model
+    public function category()
+    {
+        return $this->belongsTo(Category::class, 'category_id'); // Assuming 'category_id' is the foreign key in 'products' table
+    }
 }

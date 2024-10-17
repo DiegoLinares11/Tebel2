@@ -32,15 +32,15 @@
                         <div class="card-header">
                             <div class="d-flex mb-3">
                                 <div class="flex-grow-1">
-                                    <h5 class="fs-16">Filters</h5>
+                                    <h5 class="fs-16">Filtros</h5>
                                 </div>
                                 <div class="flex-shrink-0">
-                                    <a href="#" class="text-decoration-underline" id="clearall">Clear All</a>
+                                    <a href="#" class="text-decoration-underline" id="clearall">Quitar todos</a>
                                 </div>
                             </div>
 
                             <div class="search-box">
-                                <input type="text" class="form-control" id="searchProductList" autocomplete="off" placeholder="Search Products...">
+                                <input type="text" class="form-control" id="searchProductList" autocomplete="off" placeholder="Buscar productos...">
                                 <i class="ri-search-line search-icon"></i>
                             </div>
                         </div>
@@ -48,12 +48,12 @@
                         <div class="accordion accordion-flush filter-accordion">
                             <div class="card-body border-bottom">
                                 <div>
-                                    <p class="text-muted text-uppercase fs-12 fw-medium mb-3">Products</p>
+                                    <p class="text-muted text-uppercase fs-12 fw-medium mb-3">Categorias</p>
                                     <ul class="list-unstyled mb-0 filter-list">
                                         <li>
                                             <a href="#" class="d-flex py-1 align-items-center">
                                                 <div class="flex-grow-1">
-                                                    <h5 class="fs-13 mb-0 listname">Utiles</h5>
+                                                    <h5 class="fs-13 mb-0 listname">Utiles escolares</h5>
                                                 </div>
                                             </a>
                                         </li>
@@ -82,7 +82,7 @@
                             </div>
 
                             <div class="card-body border-bottom">
-                                <p class="text-muted text-uppercase fs-12 fw-medium mb-4">Price</p>
+                                <p class="text-muted text-uppercase fs-12 fw-medium mb-4">Precio</p>
 
                                 <div id="product-price-range" data-slider-color="info"></div>
                                 <div class="formCost d-flex gap-2 align-items-center mt-3">
@@ -114,44 +114,50 @@
                         </div>
 
                         <div class="row" id="product-grid-right">
-                            @foreach ($products as $product)
-                                <div class="col-xxl-4 col-lg-6">
-                                    <div class="card overflow-hidden element-item">
-                                        <div class="bg-dark-subtle py-4">
-                                            <div class="gallery-product">
-                                                <img src="{{ asset('images/products/' . $product->image_path) }}" alt="{{ $product->name }}" style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
-                                            </div>
-                                            <p class="fs-11 fw-medium badge bg-primary py-2 px-3 product-lable mb-0">Best Arrival</p>
-                                            <div class="gallery-product-actions">
-                                                <div class="mb-2">
-                                                    <button type="button" class="btn btn-danger btn-sm custom-toggle" data-bs-toggle="button">
-                                                        <span class="icon-on"><i class="mdi mdi-heart-outline align-bottom fs-15"></i></span>
-                                                        <span class="icon-off"><i class="mdi mdi-heart align-bottom fs-15"></i></span>
-                                                    </button>
-                                                </div>
-                                                <div>
-                                                    <button type="button" class="btn btn-success btn-sm custom-toggle" data-bs-toggle="button">
-                                                        <span class="icon-on"><i class="mdi mdi-eye-outline align-bottom fs-15"></i></span>
-                                                        <span class="icon-off"><i class="mdi mdi-eye align-bottom fs-15"></i></span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                            <div class="product-btn px-3">
-                                                <a href="#!" class="btn btn-primary btn-sm w-75 add-btn"><i class="mdi mdi-cart me-1"></i> Add to Cart</a>
-                                            </div>
+                        @foreach ($products as $product)
+                        <div class="col-xxl-4 col-lg-6">
+                            <div class="card overflow-hidden element-item">
+                                <div class="bg-dark-subtle py-4">
+                                    <div class="gallery-product">
+                                        <a href="{{ route('singleproduct', ['id' => $product->id]) }}">
+                                            <img src="{{ asset('images/products/' . $product->image_path) }}" alt="{{ $product->name }}" style="max-height: 215px;max-width: 100%;" class="mx-auto d-block">
+                                        </a>
+                                    </div>
+                                    <p class="fs-11 fw-medium badge bg-primary py-2 px-3 product-lable mb-0">Best Arrival</p>
+                                    <div class="gallery-product-actions">
+                                        <div class="mb-2">
+                                            <button type="button" class="btn btn-danger btn-sm custom-toggle" data-bs-toggle="button">
+                                                <span class="icon-on"><i class="mdi mdi-heart-outline align-bottom fs-15"></i></span>
+                                                <span class="icon-off"><i class="mdi mdi-heart align-bottom fs-15"></i></span>
+                                            </button>
                                         </div>
-                                        <div class="card-body">
-                                            <a href="#!">
-                                                <h6 class="fs-16 lh-base text-truncate mb-0">{{ $product->name }}</h6>
-                                            </a>
-                                            <div class="mt-3">
-                                                <span class="float-end">{{ $product->rating }} <i class="ri-star-half-fill text-warning align-bottom"></i></span>
-                                                <h5 class="text-secondary mb-0">${{ $product->price }} <span class="text-muted fs-12"><del>$0.00</del></span></h5>
-                                            </div>
+                                        <div>
+                                            <button type="button" class="btn btn-success btn-sm custom-toggle" data-bs-toggle="button">
+                                                <span class="icon-on"><i class="mdi mdi-eye-outline align-bottom fs-15"></i></span>
+                                                <span class="icon-off"><i class="mdi mdi-eye align-bottom fs-15"></i></span>
+                                            </button>
                                         </div>
                                     </div>
-                                </div><!--end col-->
-                            @endforeach
+                                    <div class="product-btn px-3">
+                                        <a href="{{ route('singleproduct', ['id' => $product->id]) }}" class="btn btn-primary btn-sm w-75 add-btn">
+                                            <i class="mdi mdi-cart me-1"></i> View Product
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div>
+                                        <a href="{{ route('singleproduct', ['id' => $product->id]) }}">
+                                            <h6 class="fs-16 lh-base text-truncate mb-0">{{ $product->name }}</h6>
+                                        </a>
+                                        <div class="mt-3">
+                                            <span class="float-end">{{ $product->rating }} <i class="ri-star-half-fill text-warning align-bottom"></i></span>
+                                            <h5 class="text-secondary mb-0">${{ $product->price }} <span class="text-muted fs-12"><del>$0.00</del></span></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--end col-->
+                    @endforeach
                         </div><!--end row-->
 
                         {{-- Paginación --}}

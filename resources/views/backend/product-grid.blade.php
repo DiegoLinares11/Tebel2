@@ -33,7 +33,7 @@
                         <div class="card-header">
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1">
-                                    <h5 class="fs-16 mb-0">Filters</h5>
+                                    <h5 class="fs-16 mb-0">Filtros</h5>
                                 </div>
                                 <div class="flex-shrink-0">
                                     <a href="#" class="text-decoration-underline" id="clearall">Clear All</a>
