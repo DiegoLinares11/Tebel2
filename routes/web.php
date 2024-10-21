@@ -7,16 +7,21 @@ use App\Http\Controllers\Backend\SignUpController;
 use App\Http\Controllers\Backend\OrdersController;
 use App\Http\Controllers\Backend\ShipmentsController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\Backend\MailController;
+
 
 
 // FRONTEND
-Route::get('/', [FrontendController::class, 'index'])->name('index');
-Route::get('/products', [FrontendController::class, 'products']);
+Route::get('/', [FrontendController::class, 'index'])->name('home');
+Route::get('/products', [FrontendController::class, 'products'])->name('products');
 Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
-Route::get('/signup', [FrontendController::class, 'signup']);
-Route::get('/about', [FrontendController::class, 'about']);
-Route::get('/trackorder', [FrontendController::class, 'trackorder']);
-Route::get('/profile', [FrontendController::class, 'profile']);
+Route::get('/signup', [FrontendController::class, 'signup'])->name('signup');
+Route::get('/about', [FrontendController::class, 'about'])->name('about');
+Route::get('/trackorder', [FrontendController::class, 'trackorder'])->name('trackorder');
+Route::get('/singleproduct/{id}', [FrontendController::class, 'singleproduct'])->name('singleproduct');
+Route::get("/test", [MailController::class, 'sendMail']);
+
+
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 
 Route::post('/login', [AuthController::class, 'login'])->name('login');
@@ -29,4 +34,8 @@ Route::prefix('backend')->middleware(["auth"])->group(function () {
     Route::get('orders/list', [OrdersController::class, 'listView']);
     Route::get('shipments', [ShipmentsController::class, 'ship']);
     Route::resource('signup', SignUpController::class);
+    Route::get('singleproduct', [SingleProductController::class, 'singleproduct']);
+    Route::get('enviarfactura', [MailController::class, 'sendMail']);
+
+
 });

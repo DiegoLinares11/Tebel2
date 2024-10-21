@@ -40,7 +40,9 @@ class FrontendController extends Controller
         return view('frontend.trackorder');
     }
 
-    public function profile(){
-        return view('frontend.profile');
+    public function singleproduct($id)
+    {
+        $producto = Product::findOrFail($id);
+        return view('frontend.singleproduct', compact('producto'));
     }
 }

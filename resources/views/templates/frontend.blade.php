@@ -49,7 +49,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact-us.html" data-key="t-contact">Home</a>
+                            <a class="nav-link" href="{{ route('home') }}" data-key="t-contact">Home</a>
                         </li>
                         <li class="nav-item dropdown dropdown-hover">
                             <a class="nav-link dropdown-toggle" data-key="t-pages" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -65,15 +65,15 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="products-category.html" class="nav-link" data-key="t-categories">Categories</a>
+                                    <a href="{{ route('products') }}" class="nav-link" data-key="t-categories">Categories</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="about-us.html" class="nav-link" data-key="t-about">About us</a>
+                                    <a href="{{ route('about') }}" class="nav-link" data-key="t-about">About us</a>
                                 </li>
                             </ul>
                         </li>                
                         <li class="nav-item">
-                            <a class="nav-link" href="contact-us.html" data-key="t-contact">Contact</a>
+                            <a class="nav-link" href="{{ route('contact') }}" data-key="t-contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -104,7 +104,7 @@
                             <a class="dropdown-item" href="track-order.html"><i class="bi bi-truck text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Track Orders</span></a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="account.html"><span class="badge bg-success-subtle text-success mt-1 float-end">New</span><i class="mdi mdi-cog-outline text-muted fs-16 align-middle me-1"></i> <span class="align-middle">Settings</span></a>
-                            <a class="dropdown-item" href="auth-logout-basic.html"><i class="bi bi-box-arrow-right text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">Logout</span></a>
+                            <a class="dropdown-item" href="{{ route('login') }}"><i class="bi bi-box-arrow-right text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">Logout</span></a>
                         </div>
                     </div>
                 </div>
