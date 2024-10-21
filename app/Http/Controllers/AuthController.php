@@ -25,7 +25,7 @@ class AuthController extends Controller
         if ($user && Hash::check($request->password, $user->password)) {
             // Autenticar al usuario y redirigirlo
             Auth::login($user);
-            return redirect()->intended('index');
+            return redirect()->intended('/');
         } else {
             dd("NO SE PUDO");
             // Retornar un mensaje de error
