@@ -45,4 +45,9 @@ class FrontendController extends Controller
         $producto = Product::findOrFail($id);
         return view('frontend.singleproduct', compact('producto'));
     }
+
+    public function shopCart()
+    {
+        return view('frontend.shop-cart');
+    }
 }
