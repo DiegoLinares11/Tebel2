@@ -8,6 +8,7 @@ use App\Http\Controllers\Backend\OrdersController;
 use App\Http\Controllers\Backend\ShipmentsController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Backend\MailController;
+use App\Http\Controllers\CartController;
 
 
 
@@ -20,7 +21,8 @@ Route::get('/about', [FrontendController::class, 'about'])->name('about');
 Route::get('/trackorder', [FrontendController::class, 'trackorder'])->name('trackorder');
 Route::get('/singleproduct/{id}', [FrontendController::class, 'singleproduct'])->name('singleproduct');
 Route::get("/test", [MailController::class, 'sendMail']);
-Route::get("/shop-cart", [FrontendController::class, 'shopCart']);
+//Route::get("/shop-cart", [FrontendController::class, 'shopCart']);
+Route::get('/shop-cart', [CartController::class, 'index'])->name('cart.index');
 
 
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
