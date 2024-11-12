@@ -22,13 +22,14 @@ Route::get('/trackorder', [FrontendController::class, 'trackorder'])->name('trac
 Route::get('/singleproduct/{id}', [FrontendController::class, 'singleproduct'])->name('singleproduct');
 Route::get('/products', [ProductsController::class, 'index'])->name('frontend.products.index');
 
-Route::get("/test", [MailController::class, 'sendMail']);
+Route::get("/test", [MailController::class, 'sendInvoice']);
 Route::get('/backend/products', [ProductsController::class, 'index'])->name('products');
 
 // BACKEND
 Route::prefix('backend')->group(function () {
     // Route::resource('clients', ClientsController::class);
-    Route::get('enviarfactura', [MailController::class, 'sendMail']);
+    Route::get('enviarfactura', [MailController::class, 'sendInvoice']);
+    Route::get('enviarpsswre', [MailController::class, 'sendPasswordReset']);
     Route::get('/', [ProductsController::class, 'index']);
     Route::get('products/grid', [ProductsController::class, 'grid']);
     Route::get('orders/list', [OrdersController::class, 'listView']);

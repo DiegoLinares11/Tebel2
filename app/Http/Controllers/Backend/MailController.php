@@ -10,13 +10,23 @@ use Illuminate\Support\Facades\Mail;
 
 class MailController extends Controller
 {
-    public function sendMail(Request $request)
+    public function sendInvoice(Request $request)
     {
 
         $correo = $request->input('correo');
 
 
        $mail = Mail::to([$correo])->send(new BillTest());
+
+    }
+
+    public function sendPasswordReset(Request $request)
+    {
+
+        $correo = $request->input('correo');
+
+
+       $mail = Mail::to([$correo])->send(new PasswordReset());
 
     }
 }
